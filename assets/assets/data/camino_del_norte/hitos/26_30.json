@@ -1,0 +1,410 @@
+{
+  "camino": "Del Norte (Ruta de la Costa)",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cdn-26",
+      "numero": 26,
+      "nombre": "La Caridad - Ribadeo",
+      "slug": "la-caridad-ribadeo",
+      "distancia_km": 21.6,
+      "desnivel": {
+        "positivo_m": 350,
+        "negativo_m": 390
+      },
+      "dificultad": "Moderada",
+      "tipo_firme": [
+        "asfalto",
+        "pista de tierra",
+        "hormigón"
+      ],
+      "resumen": "Etapa de despedida del Principado de Asturias. Tras cruzar el imponente Puente de los Santos sobre la ría del Eo, el peregrino entra oficialmente en Galicia.",
+      "resumen_trazado": [
+        "Salida de La Caridad por pistas agrícolas.",
+        "Paso por Valdepares y El Franco.",
+        "Travesía por Tapia de Casariego (variante costera recomendada).",
+        "Llegada a Castropol o Figueras.",
+        "Cruce de la ría del Eo por el Puente de los Santos.",
+        "Entrada en Ribadeo (Lugo)."
+      ],
+      "tiempos": {
+        "min_horas": 4.5,
+        "media_horas": 5.5,
+        "max_horas": 7.0
+      },
+      "riesgos": [
+        "Viento fuerte racheado en el Puente de los Santos",
+        "Tramos de carretera N-634 con tráfico denso"
+      ],
+      "hidratacion": "Buena en Tapia de Casariego y Figueras. Cargar antes del puente.",
+      "clima_tipico": "Bruma marina frecuente, vientos de componente Oeste.",
+      "tags": [
+        "ría-del-eo",
+        "frontera",
+        "galicia",
+        "puente"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5575, "lon": -6.8290 },
+        "fin": { "lat": 43.5365, "lon": -7.0385 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 21.8,
+        "desnivel_positivo": 355
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-25",
+        "etapa_siguiente": "cdn-27"
+      },
+      "localidades": [
+        {
+          "id": "loc-figueras",
+          "nombre": "Figueras",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.5358, "lon": -7.0195 },
+          "geo": { "elevation_m": 25 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Tienda local El Puerto"],
+            "restaurantes": ["Palacete de Peñalba", "Restaurante Amares"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.5358,-7.0195" },
+          "patrimonio": [
+            {
+              "id": "pat-palacete-fig", "nombre": "Palacete de Peñalba", "tipo": "Civil", "siglo": "XX",
+              "estilo": "Art Nouveau", "descripcion": "Construcción indiana diseñada por un discípulo de Gaudí.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.5362, "lon": -7.0185 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-ribadeo",
+          "nombre": "Ribadeo",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5365, "lon": -7.0385 },
+          "geo": { "elevation_m": 45 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Eroski", "Gadis", "Lidl"],
+            "restaurantes": ["A Cofradía", "Restaurante San Miguel"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.5365,-7.0385" },
+          "patrimonio": [
+            {
+              "id": "pat-torre-moreno", "nombre": "Torre de los Moreno", "tipo": "Civil", "siglo": "XX",
+              "estilo": "Ecléctico / Modernista", "descripcion": "Emblemático edificio indiano con estructura de hormigón y cúpulas cerámicas.", "relevancia": "alta",
+              "visitable": false, "coordenadas": { "lat": 43.5368, "lon": -7.0398 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-rib-mun", "nombre": "Albergue de Peregrinos de Ribadeo", "tipo": "municipal", "plazas": 70,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 660 39 68 24", "telefono_link": "tel:+34660396824" },
+              "servicios": ["wifi", "lavandería", "cocina"], "rating": 3.9,
+              "coordenadas": { "lat": 43.5385, "lon": -7.0425 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.5385,-7.0425" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-27",
+      "numero": 27,
+      "nombre": "Ribadeo - Lourenzá",
+      "slug": "ribadeo-lourenza",
+      "distancia_km": 28.4,
+      "desnivel": {
+        "positivo_m": 720,
+        "negativo_m": 680
+      },
+      "dificultad": "Alta",
+      "tipo_firme": [
+        "asfalto",
+        "camino de tierra",
+        "hormigón"
+      ],
+      "resumen": "Inmersión en el paisaje gallego. Etapa dura por los constantes desniveles (toboganes) a través del interior de la provincia de Lugo.",
+      "resumen_trazado": [
+        "Salida de Ribadeo ascendiendo hacia Ove.",
+        "Travesía por la montaña hacia Vilela.",
+        "Ascenso exigente a A Ponte Arante.",
+        "Paso por Villamartín Grande y Pequeño.",
+        "Descenso hacia el valle de Lourenzá."
+      ],
+      "tiempos": {
+        "min_horas": 7.0,
+        "media_horas": 8.0,
+        "max_horas": 10.0
+      },
+      "riesgos": [
+        "Aislamiento severo entre núcleos",
+        "Pendientes pronunciadas que requieren bastones",
+        "Barro en zonas de pasto"
+      ],
+      "hidratacion": "Escasa. Pocas fuentes operativas entre Vilela y Lourenzá.",
+      "clima_tipico": "Húmedo, nieblas en los valles interiores.",
+      "tags": [
+        "interior",
+        "montaña",
+        "galicia-profunda"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5365, "lon": -7.0385 },
+        "fin": { "lat": 43.4705, "lon": -7.2890 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 28.6, "desnivel_positivo": 725 },
+      "relaciones": { "etapa_anterior": "cdn-26", "etapa_siguiente": "cdn-28" },
+      "localidades": [
+        {
+          "id": "loc-vilela",
+          "nombre": "Vilela",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.5110, "lon": -7.1085 },
+          "geo": { "elevation_m": 140 },
+          "servicios": {
+            "fuentes": true, "farmacia": false, "centro_salud": false,
+            "supermercados": [],
+            "restaurantes": ["Mesón Vilela"],
+            "cajeros": false, "transporte_publico": false, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.5110,-7.1085" },
+          "patrimonio": [],
+          "albergues": [
+            {
+              "id": "alb-vilela-priv", "nombre": "Albergue Vilela", "tipo": "privado", "plazas": 20,
+              "precio": { "min": 15, "max": 18 },
+              "contacto": { "telefono": "+34 616 23 30 61" },
+              "servicios": ["cena", "wifi"], "rating": 4.5,
+              "coordenadas": { "lat": 43.5105, "lon": -7.1090 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.5105,-7.1090" }
+            }
+          ]
+        },
+        {
+          "id": "loc-lourenza",
+          "nombre": "Lourenzá",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.4705, "lon": -7.2890 },
+          "geo": { "elevation_m": 110 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Claudio", "Dia"],
+            "restaurantes": ["O Recanto", "Hotel Galería"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4705,-7.2890" },
+          "patrimonio": [
+            {
+              "id": "pat-lou-monast", "nombre": "Monasterio de San Salvador de Lourenzá", "tipo": "Religioso", "siglo": "X",
+              "estilo": "Barroco", "descripcion": "Su fachada principal (siglo XVIII) fue ensayo para la fachada del Obradoiro de Santiago por Fernando de Casas Novoa.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.4715, "lon": -7.2895 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-lou-mun", "nombre": "Albergue de Peregrinos de Lourenzá", "tipo": "municipal", "plazas": 60,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 660 39 68 25" },
+              "servicios": ["cocina", "duchas"], "rating": 4.1,
+              "coordenadas": { "lat": 43.4720, "lon": -7.2905 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.4720,-7.2905" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-28",
+      "numero": 28,
+      "nombre": "Lourenzá - Mondoñedo",
+      "slug": "lourenza-mondonedo",
+      "distancia_km": 12.2,
+      "desnivel": {
+        "positivo_m": 250,
+        "negativo_m": 220
+      },
+      "dificultad": "Baja",
+      "tipo_firme": ["asfalto", "camino tradicional"],
+      "resumen": "Etapa corta de 'respiro' que conduce a una de las siete capitales del antiguo Reino de Galicia.",
+      "resumen_trazado": [
+        "Salida de Lourenzá por el valle.",
+        "Ascenso suave hacia Arroxo.",
+        "Travesía por pequeñas aldeas.",
+        "Llegada panorámica a Mondoñedo."
+      ],
+      "tiempos": { "min_horas": 3.0, "media_horas": 4.0, "max_horas": 5.0 },
+      "riesgos": ["Tramos de la carretera N-634"],
+      "hidratacion": "Excelente en los dos núcleos principales.",
+      "clima_tipico": "Húmedo, frecuente lluvia fina.",
+      "tags": ["capital-histórica", "catedral", "corta"],
+      "coordenadas": {
+        "inicio": { "lat": 43.4705, "lon": -7.2890 },
+        "fin": { "lat": 43.4285, "lon": -7.3625 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 12.4, "desnivel_positivo": 255 },
+      "relaciones": { "etapa_anterior": "cdn-27", "etapa_siguiente": "cdn-29" },
+      "localidades": [
+        {
+          "id": "loc-mondonedo",
+          "nombre": "Mondoñedo",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.4285, "lon": -7.3625 },
+          "geo": { "elevation_m": 140 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Gadis", "Dia"],
+            "restaurantes": ["O Rei das Tartas", "A Voltiña"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4285,-7.3625" },
+          "patrimonio": [
+            {
+              "id": "pat-cat-mond", "nombre": "Catedral Basílica de la Asunción", "tipo": "Religioso", "siglo": "XIII",
+              "estilo": "Gótico-Renacentista", "descripcion": "Declarada Patrimonio de la Humanidad por la UNESCO. Destaca su fachada y el Museo Catedralicio.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.4292, "lon": -7.3628 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-mon-mun", "nombre": "Albergue de Peregrinos de Mondoñedo", "tipo": "municipal", "plazas": 30,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 660 39 68 26" },
+              "servicios": ["taquillas", "lavadero"], "rating": 3.7,
+              "coordenadas": { "lat": 43.4278, "lon": -7.3645 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.4278,-7.3645" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-29",
+      "numero": 29,
+      "nombre": "Mondoñedo - Abadín",
+      "slug": "mondonedo-abadin",
+      "distancia_km": 16.5,
+      "desnivel": {
+        "positivo_m": 580,
+        "negativo_m": 140
+      },
+      "dificultad": "Alta",
+      "tipo_firme": ["calzada", "sendero", "pista"],
+      "resumen": "Etapa de montaña que supera el Puerto de A Xesta. Es una subida constante y exigente hacia la Terra Chá.",
+      "resumen_trazado": [
+        "Salida de Mondoñedo hacia el barrio de San Lázaro.",
+        "Ascenso duro por la calzada medieval hacia Lousada.",
+        "Paso por el Alto de A Xesta (punto más alto).",
+        "Travesía por la meseta hacia Gontán.",
+        "Llegada a Abadín."
+      ],
+      "tiempos": { "min_horas": 4.5, "media_horas": 5.5, "max_horas": 7.0 },
+      "riesgos": ["Esfuerzo físico intenso en el ascenso", "Posible niebla cerrada en A Xesta"],
+      "hidratacion": "Crítica en la subida. Solo fuentes en Lousada.",
+      "clima_tipico": "Clima de montaña, bajada de temperatura en la meseta.",
+      "tags": ["montaña", "meseta", "esfuerzo"],
+      "coordenadas": {
+        "inicio": { "lat": 43.4285, "lon": -7.3625 },
+        "fin": { "lat": 43.3635, "lon": -7.4785 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 16.7, "desnivel_positivo": 585 },
+      "relaciones": { "etapa_anterior": "cdn-28", "etapa_siguiente": "cdn-30" },
+      "localidades": [
+        {
+          "id": "loc-gontan",
+          "nombre": "Gontán",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.3685, "lon": -7.4750 },
+          "geo": { "elevation_m": 485 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": false,
+            "supermercados": ["Autoservicio Gontán"],
+            "restaurantes": ["Mesón Gontán"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.3685,-7.4750" },
+          "patrimonio": [],
+          "albergues": [
+            {
+              "id": "alb-gon-mun", "nombre": "Albergue de Peregrinos de Gontán", "tipo": "municipal", "plazas": 30,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 660 39 68 27" },
+              "servicios": ["lavadero", "cocina"], "rating": 3.8,
+              "coordenadas": { "lat": 43.3688, "lon": -7.4740 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.3688,-7.4740" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-30",
+      "numero": 30,
+      "nombre": "Abadín - Vilalba",
+      "slug": "abadin-vilalba",
+      "distancia_km": 20.6,
+      "desnivel": {
+        "positivo_m": 220,
+        "negativo_m": 240
+      },
+      "dificultad": "Baja",
+      "tipo_firme": ["pista forestal", "asfalto"],
+      "resumen": "Travesía por la Terra Chá. Terreno llano y cómodo entre pinares y praderías gallegas.",
+      "resumen_trazado": [
+        "Salida de Abadín hacia Castromaior.",
+        "Paso por el puente medieval sobre el río Arnela.",
+        "Travesía por Goiriz.",
+        "Entrada en Vilalba por el polígono industrial."
+      ],
+      "tiempos": { "min_horas": 4.5, "media_horas": 5.5, "max_horas": 6.5 },
+      "riesgos": ["Aburrimiento por tramos monótonos rectos", "Tráfico denso en la entrada a Vilalba"],
+      "hidratacion": "Buena en Martiñán y Goiriz.",
+      "clima_tipico": "Sol intenso en verano sin sombras, mucha humedad matinal.",
+      "tags": ["terra-chá", "llano", "rural"],
+      "coordenadas": {
+        "inicio": { "lat": 43.3635, "lon": -7.4785 },
+        "fin": { "lat": 43.2985, "lon": -7.6815 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 20.8, "desnivel_positivo": 225 },
+      "relaciones": { "etapa_anterior": "cdn-29", "etapa_siguiente": "cdn-31" },
+      "localidades": [
+        {
+          "id": "loc-vilalba",
+          "nombre": "Vilalba",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.2985, "lon": -7.6815 },
+          "geo": { "elevation_m": 440 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Eroski Center", "Mercadona", "Gadis"],
+            "restaurantes": ["Mesón do Campo", "O Mirador"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.2985,-7.6815" },
+          "patrimonio": [
+            {
+              "id": "pat-torre-andrade", "nombre": "Torre de los Andrade", "tipo": "Militar", "siglo": "XV",
+              "estilo": "Gótico tardío", "descripcion": "Antigua torre del homenaje convertida hoy en Parador de Turismo.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.2978, "lon": -7.6820 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-vil-mun", "nombre": "Albergue de Peregrinos de Vilalba", "tipo": "municipal", "plazas": 60,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 660 39 68 28" },
+              "servicios": ["wifi", "lavandería", "jardín"], "rating": 4.0,
+              "coordenadas": { "lat": 43.3035, "lon": -7.6780 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.3035,-7.6780" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

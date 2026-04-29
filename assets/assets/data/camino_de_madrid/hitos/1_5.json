@@ -1,0 +1,242 @@
+{
+  "camino": "Camino de Santiago de Madrid",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cmad-01",
+      "numero": 1,
+      "nombre": "Madrid - Tres Cantos",
+      "slug": "madrid-tres-cantos",
+      "distancia_km": 25.2,
+      "desnivel": {
+        "positivo_m": 280,
+        "negativo_m": 150
+      },
+      "dificultad": "Media",
+      "tipo_firme": ["asfalto", "carril bici", "pista de tierra"],
+      "resumen": "Salida urbana desde el centro de la capital utilizando el Anillo Verde Ciclista y el carril bici de la M-607 para abandonar la metrópoli hacia el norte.",
+      "resumen_trazado": [
+        "Inicio en la Iglesia de Santiago en Madrid centro.",
+        "Travesía por Plaza de Castilla y el barrio de Fuencarral.",
+        "Enlace con el carril bici de la carretera de Colmenar Viejo.",
+        "Entrada en Tres Cantos por la zona sur."
+      ],
+      "tiempos": {
+        "min_horas": 5.5,
+        "media_horas": 6.5,
+        "max_horas": 8.0
+      },
+      "riesgos": [
+        "Tráfico intenso y cruces peligrosos en la salida de Madrid",
+        "Exposición solar alta en el carril bici"
+      ],
+      "hidratacion": "Buena (numerosas fuentes en Madrid y Fuencarral)",
+      "coordenadas": {
+        "inicio": { "lat": 40.4175, "lon": -3.7073 },
+        "fin": { "lat": 40.6008, "lon": -3.7122 }
+      },
+      "localidades": [
+        {
+          "nombre": "Madrid",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 40.4175, "lon": -3.7073 },
+          "patrimonio": [
+            { "nombre": "Iglesia de Santiago", "descripcion": "Punto de inicio tradicional del camino madrileño." }
+          ]
+        },
+        {
+          "nombre": "Tres Cantos",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.6008, "lon": -3.7122 },
+          "albergues": [
+            { "nombre": "Polideportivo Municipal", "tipo": "acogida", "servicios": ["duchas", "suelo"] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-02",
+      "numero": 2,
+      "nombre": "Tres Cantos - Colmenar Viejo",
+      "slug": "tres-cantos-colmenar-viejo",
+      "distancia_km": 12.5,
+      "desnivel": {
+        "positivo_m": 210,
+        "negativo_m": 50
+      },
+      "dificultad": "Baja",
+      "tipo_firme": ["pista de tierra", "vía pecuaria"],
+      "resumen": "Etapa corta y cómoda que atraviesa dehesas madrileñas hacia la falda de la sierra.",
+      "resumen_trazado": [
+        "Salida de Tres Cantos por el parque central.",
+        "Travesía por dehesas de encinas.",
+        "Llegada a Colmenar Viejo por la ermita de Santa Ana."
+      ],
+      "tiempos": {
+        "min_horas": 2.5,
+        "media_horas": 3.0,
+        "max_horas": 4.0
+      },
+      "riesgos": ["Ganado suelto en las dehesas"],
+      "hidratacion": "Escasa entre localidades",
+      "coordenadas": {
+        "inicio": { "lat": 40.6008, "lon": -3.7122 },
+        "fin": { "lat": 40.6591, "lon": -3.7656 }
+      },
+      "localidades": [
+        {
+          "nombre": "Tres Cantos",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 40.6008, "lon": -3.7122 }
+        },
+        {
+          "nombre": "Colmenar Viejo",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.6591, "lon": -3.7656 },
+          "patrimonio": [
+            { "nombre": "Basílica de la Asunción", "descripcion": "Impresionante torre gótica." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-03",
+      "numero": 3,
+      "nombre": "Colmenar Viejo - Manzanares el Real",
+      "slug": "colmenar-viejo-manzanares",
+      "distancia_km": 15.8,
+      "desnivel": {
+        "positivo_m": 320,
+        "negativo_m": 280
+      },
+      "dificultad": "Media-Baja",
+      "tipo_firme": ["sendero", "pista de tierra"],
+      "resumen": "Camino con espectaculares vistas de La Pedriza y el embalse de Santillana.",
+      "resumen_trazado": [
+        "Descenso hacia el río Manzanares.",
+        "Bordeo del Embalse de Santillana.",
+        "Entrada monumental en Manzanares el Real."
+      ],
+      "tiempos": {
+        "min_horas": 3.5,
+        "media_horas": 4.0,
+        "max_horas": 5.0
+      },
+      "riesgos": ["Barro en épocas de lluvia cerca del embalse"],
+      "hidratacion": "Regular",
+      "coordenadas": {
+        "inicio": { "lat": 40.6591, "lon": -3.7656 },
+        "fin": { "lat": 40.7272, "lon": -3.8611 }
+      },
+      "localidades": [
+        {
+          "nombre": "Colmenar Viejo",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 40.6591, "lon": -3.7656 }
+        },
+        {
+          "nombre": "Manzanares el Real",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.7272, "lon": -3.8611 },
+          "patrimonio": [
+            { "nombre": "Castillo de los Mendoza", "descripcion": "Uno de los mejor conservados de España." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-04",
+      "numero": 4,
+      "nombre": "Manzanares el Real - Cercedilla",
+      "slug": "manzanares-cercedilla",
+      "distancia_km": 20.4,
+      "desnivel": {
+        "positivo_m": 450,
+        "negativo_m": 250
+      },
+      "dificultad": "Media-Alta",
+      "tipo_firme": ["sendero montañoso", "pista forestal"],
+      "resumen": "Aproximación a la Sierra de Guadarrama por el Camino de Santiago madrileño.",
+      "resumen_trazado": [
+        "Travesía por la falda de la Sierra.",
+        "Paso por Mataelpino y Navacerrada pueblo.",
+        "Entrada en el valle de Cercedilla."
+      ],
+      "tiempos": {
+        "min_horas": 4.5,
+        "media_horas": 5.5,
+        "max_horas": 7.0
+      },
+      "riesgos": ["Orientación difícil con niebla"],
+      "hidratacion": "Buena en los pueblos intermedios",
+      "coordenadas": {
+        "inicio": { "lat": 40.7272, "lon": -3.8611 },
+        "fin": { "lat": 40.7410, "lon": -4.0655 }
+      },
+      "localidades": [
+        {
+          "nombre": "Manzanares el Real",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 40.7272, "lon": -3.8611 }
+        },
+        {
+          "nombre": "Cercedilla",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.7410, "lon": -4.0655 },
+          "albergues": [
+            { "nombre": "Albergue Juvenil Villa Castora", "tipo": "juvenil", "contacto": { "telefono": "918520334" } }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-05",
+      "numero": 5,
+      "nombre": "Cercedilla - Segovia",
+      "slug": "cercedilla-segovia",
+      "distancia_km": 30.5,
+      "desnivel": {
+        "positivo_m": 680,
+        "negativo_m": 850
+      },
+      "dificultad": "Alta",
+      "tipo_firme": ["calzada romana", "pista forestal", "sendero"],
+      "resumen": "La etapa reina. Ascenso al Puerto de la Fuenfría (1.792 m) por la calzada romana y descenso por pinares hasta Segovia.",
+      "resumen_trazado": [
+        "Ascenso por la Calzada Romana de la Fuenfría.",
+        "Cima en el puerto, límite entre Madrid y Segovia.",
+        "Descenso por la Carretera de la República y pinares de Valsaín.",
+        "Entrada monumental en Segovia bajo el Acueducto."
+      ],
+      "tiempos": {
+        "min_horas": 7.0,
+        "media_horas": 8.5,
+        "max_horas": 10.0
+      },
+      "riesgos": [
+        "Cambios bruscos de tiempo; nieve posible hasta primavera",
+        "Tramo de 20 km sin servicios tras las Dehesas"
+      ],
+      "hidratacion": "Crítica; única fuente fiable en la Fuenfría.",
+      "coordenadas": {
+        "inicio": { "lat": 40.7410, "lon": -4.0655 },
+        "fin": { "lat": 40.9481, "lon": -4.1184 }
+      },
+      "localidades": [
+        {
+          "nombre": "Cercedilla",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 40.7410, "lon": -4.0655 }
+        },
+        {
+          "nombre": "Segovia",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.9481, "lon": -4.1184 },
+          "patrimonio": [
+            { "nombre": "Acueducto Romano", "descripcion": "Icono monumental del fin de etapa." }
+          ]
+        }
+      ]
+    }
+  ]
+}

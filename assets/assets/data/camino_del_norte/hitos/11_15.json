@@ -1,0 +1,1159 @@
+{
+"camino": "Del Norte (Ruta de la Costa)",
+"version": "1.0.Pro-Plus",
+"etapas": [
+{
+"id": "cdn-11",
+"numero": 11,
+"nombre": "Güemes - Santander",
+"slug": "guemes-santander",
+"distancia_km": 11.8,
+"desnivel": {
+"positivo_m": 120,
+"negativo_m": 200
+},
+"dificultad": "Baja",
+"tipo_firme": [
+"asfalto",
+"sendero costero",
+"baldosa"
+],
+"resumen": "Etapa corta y de transición costera. Destaca por el recorrido por los acantilados de Langre y el acceso a la capital cántabra mediante la mítica lancha desde Somo.",
+"resumen_trazado": [
+"Salida de Güemes por carreteras locales hacia Galizano.",
+"Tramo costero espectacular por los acantilados de Langre.",
+"Llegada a Somo por la playa.",
+"Cruce en lancha (ferry) a Santander.",
+"Recorrido por el Paseo de Pereda hasta el centro."
+],
+"tiempos": {
+"min_horas": 3.0,
+"media_horas": 4.0,
+"max_horas": 5.0
+},
+"riesgos": [
+"Exposición al viento en los acantilados de Langre",
+"Dependencia del horario de lanchas Somo-Santander"
+],
+"hidratacion": "Buena en Somo y Santander. Muy necesaria en el tramo de costa bajo sol directo.",
+"clima_tipico": "Brisa marina persistente, alta probabilidad de despejado.",
+"tags": [
+"acantilados",
+"lancha",
+"bahía",
+"capital"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.4540,
+"lon": -3.6330
+},
+"fin": {
+"lat": 43.4623,
+"lon": -3.8047
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 12.0,
+"desnivel_positivo": 125
+},
+"relaciones": {
+"etapa_anterior": "cdn-10",
+"etapa_siguiente": "cdn-12"
+},
+"localidades": [
+{
+"id": "loc-galizano",
+"nombre": "Galizano",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.4695,
+"lon": -3.6780
+},
+"geo": {
+"elevation_m": 35
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Tienda local Galizano"
+],
+"restaurantes": [
+"La Hosteria",
+"El Mirador de Galizano"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/irun-start"
+},
+"patrimonio": [
+{
+"id": "pat-gal-01",
+"nombre": "Iglesia de Nuestra Señora de la Asunción",
+"tipo": "Religioso",
+"siglo": "XVI",
+"estilo": "Renacentista",
+"descripcion": "Templo de robustas proporciones con una destacada torre campanario.",
+"relevancia": "media",
+"visitable": true,
+"coordenadas": {
+"lat": 43.4692,
+"lon": -3.6775
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-somo",
+"nombre": "Somo",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.4545,
+"lon": -3.7432
+},
+"geo": {
+"elevation_m": 10
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Lupa",
+"Dia"
+],
+"restaurantes": [
+"Las Quebrantas",
+"Restaurante El Galeón"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/alb-jakobi"
+},
+"patrimonio": [],
+"albergues": []
+},
+{
+"id": "loc-santander",
+"nombre": "Santander",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.4623,
+"lon": -3.8047
+},
+"geo": {
+"elevation_m": 15
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Mercadona",
+"Carrefour",
+"El Corte Inglés"
+],
+"restaurantes": [
+"Cañadío",
+"El Machi",
+"Bodega del Riojano"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/pasaia-donibane"
+},
+"patrimonio": [
+{
+"id": "pat-san-01",
+"nombre": "Catedral de Nuestra Señora de la Asunción",
+"tipo": "Religioso",
+"siglo": "XIII",
+"estilo": "Gótico",
+"descripcion": "Conjunto monumental formado por dos iglesias superpuestas y un claustro.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.4605,
+"lon": -3.8075
+}
+},
+{
+"id": "pat-san-02",
+"nombre": "Palacio de la Magdalena",
+"tipo": "Civil",
+"siglo": "XX",
+"estilo": "Ecléctico",
+"descripcion": "Antigua residencia real situada en la península homónima.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.4691,
+"lon": -3.7656
+}
+}
+],
+"albergues": [
+{
+"id": "alb-san-01",
+"nombre": "Albergue de Peregrinos Santos Mártires",
+"tipo": "municipal",
+"plazas": 40,
+"precio": {
+"min": 15,
+"max": 15
+},
+"contacto": {
+"telefono": "+34 942 21 16 26",
+"telefono_link": "tel:+34942211626"
+},
+"servicios": [
+"wifi",
+"duchas",
+"lavadero"
+],
+"rating": 4.1,
+"coordenadas": {
+"lat": 43.4608,
+"lon": -3.8062
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/alb-santa-ana"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-12",
+"numero": 12,
+"nombre": "Santander - Santillana del Mar",
+"slug": "santander-santillana-del-mar",
+"distancia_km": 37.0,
+"desnivel": {
+"positivo_m": 580,
+"negativo_m": 600
+},
+"dificultad": "Muy Alta",
+"tipo_firme": [
+"asfalto",
+"baldosa",
+"pista forestal"
+],
+"resumen": "Etapa de gran longitud por el corazón de Cantabria. Atraviesa núcleos industriales y residenciales antes de llegar a la villa medieval de Santillana.",
+"resumen_trazado": [
+"Salida de Santander por Peñacastillo.",
+"Paso por Santa Cruz de Bezana.",
+"Boo de Piélagos y cruce de la ría del Pas.",
+"Paso por Mar y Polanco.",
+"Llegada a la Puebla Vieja de Santillana."
+],
+"tiempos": {
+"min_horas": 8.5,
+"media_horas": 10.0,
+"max_horas": 12.0
+},
+"riesgos": [
+"Fatiga extrema por kilometraje",
+"Tramos industriales con tráfico pesado",
+"Cruces de carretera nacional"
+],
+"hidratacion": "Buena en núcleos urbanos, pero tramos largos de asfalto requieren carga previa.",
+"clima_tipico": "Humedad alta, sol intenso en zonas sin sombra asfáltica.",
+"tags": [
+"larga",
+"medieval",
+"desafío"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.4623,
+"lon": -3.8047
+},
+"fin": {
+"lat": 43.3888,
+"lon": -4.1086
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 37.2,
+"desnivel_positivo": 585
+},
+"relaciones": {
+"etapa_anterior": "cdn-11",
+"etapa_siguiente": "cdn-13"
+},
+"localidades": [
+{
+"id": "loc-bezana",
+"nombre": "Santa Cruz de Bezana",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.4435,
+"lon": -3.9030
+},
+"geo": {
+"elevation_m": 45
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermerkados": [
+"Lupa",
+"Eroski"
+],
+"restaurantes": [
+"Mesón Bezana"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": false
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/orio-center"
+},
+"patrimonio": [],
+"albergues": []
+},
+{
+"id": "loc-boo",
+"nombre": "Boo de Piélagos",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.4075,
+"lon": -3.9210
+},
+"geo": {
+"elevation_m": 35
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": false,
+"supermercados": [
+"Tienda de alimentación Boo"
+],
+"restaurantes": [
+"Restaurante Boos"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/alb-san-martin"
+},
+"patrimonio": [],
+"albergues": [
+{
+"id": "alb-boo-01",
+"nombre": "Albergue Piedad",
+"tipo": "privado",
+"plazas": 18,
+"precio": {
+"min": 15,
+"max": 20
+},
+"contacto": {
+"telefono": "+34 650 33 08 30"
+},
+"servicios": [
+"wifi",
+"comidas"
+],
+"rating": 4.3,
+"coordenadas": {
+"lat": 43.4070,
+"lon": -3.9215
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/getaria-center"
+}
+}
+]
+},
+{
+"id": "loc-santillana",
+"nombre": "Santillana del Mar",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.3888,
+"lon": -4.1086
+},
+"geo": {
+"elevation_m": 82
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"BM Supermercados",
+"Carrefour Express"
+],
+"restaurantes": [
+"El Pasaje de los Nobles",
+"La Villa",
+"Restaurante El Castillo"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/alb-kanpa",
+"booking": "https://www.booking.com/city/es/santillana-del-mar.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-stl-01",
+"nombre": "Colegiata de Santa Juliana",
+"tipo": "Religioso",
+"siglo": "XII",
+"estilo": "Románico",
+"descripcion": "La joya del románico cántabro con un claustro de capiteles historiados excepcional.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3908,
+"lon": -4.1075
+}
+},
+{
+"id": "pat-stl-02",
+"nombre": "Cuevas de Altamira (Museo)",
+"tipo": "Prehistórico",
+"siglo": "Paleolítico",
+"estilo": "Arte rupestre",
+"descripcion": "La 'Capilla Sixtina' del arte rupestre (visita a la Neocueva).",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3772,
+"lon": -4.1221
+}
+}
+],
+"albergues": [
+{
+"id": "alb-stl-01",
+"nombre": "Albergue de Peregrinos de Santillana del Mar",
+"tipo": "municipal",
+"plazas": 30,
+"precio": {
+"min": 10,
+"max": 10
+},
+"contacto": {
+"telefono": "+34 659 08 61 24"
+},
+"servicios": [
+"duchas",
+"patio"
+],
+"rating": 3.9,
+"coordenadas": {
+"lat": 43.3905,
+"lon": -4.1055
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/markina-center"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-13",
+"numero": 13,
+"nombre": "Santillana del Mar - Comillas",
+"slug": "santillana-del-mar-comillas",
+"distancia_km": 22.1,
+"desnivel": {
+"positivo_m": 450,
+"negativo_m": 430
+},
+"dificultad": "Moderada",
+"tipo_firme": [
+"asfalto",
+"pista forestal",
+"sendero"
+],
+"resumen": "Etapa de transición costera que une dos de las villas más monumentales de Cantabria a través de valles verdes y acantilados.",
+"resumen_trazado": [
+"Salida de Santillana hacia Oreña.",
+"Paso por Caborredondo.",
+"Descenso a Cóbreces.",
+"Travesía hacia la playa de la Concha de Comillas.",
+"Entrada monumental en Comillas."
+],
+"tiempos": {
+"min_horas": 4.5,
+"media_horas": 5.5,
+"max_horas": 7.0
+},
+"riesgos": [
+"Tramos de carretera CA-131 con poco arcén",
+"Viento fuerte en la zona de Cóbreces"
+],
+"hidratacion": "Buena. Fuentes y bares en Oreña, Cóbreces y Comillas.",
+"clima_tipico": "Clima suave, alta humedad marina.",
+"tags": [
+"gaudí",
+"modernismo",
+"palacios"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.3888,
+"lon": -4.1086
+},
+"fin": {
+"lat": 43.3860,
+"lon": -4.2920
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 22.2,
+"desnivel_positivo": 455
+},
+"relaciones": {
+"etapa_anterior": "cdn-12",
+"etapa_siguiente": "cdn-14"
+},
+"localidades": [
+{
+"id": "loc-cobreces",
+"nombre": "Cóbreces",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.3915,
+"lon": -4.2145
+},
+"geo": {
+"elevation_m": 75
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": false,
+"supermercados": [
+"Tienda ultramarinos local"
+],
+"restaurantes": [
+"El Pino",
+"La Clave"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/alb-markina"
+},
+"patrimonio": [
+{
+"id": "pat-cob-01",
+"nombre": "Abadía Cisterciense de Viaceli",
+"tipo": "Religioso",
+"siglo": "XX",
+"estilo": "Neogótico",
+"descripcion": "Imponente monasterio construido en hormigón armado, famoso por su queso.",
+"relevancia": "media",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3895,
+"lon": -4.2135
+}
+}
+],
+"albergues": [
+{
+"id": "alb-cob-01",
+"nombre": "Albergue El Pino",
+"tipo": "privado",
+"plazas": 30,
+"precio": {
+"min": 15,
+"max": 15
+},
+"contacto": {
+"telefono": "+34 942 72 50 21"
+},
+"servicios": [
+"restaurante",
+"wifi"
+],
+"rating": 4.1,
+"coordenadas": {
+"lat": 43.3920,
+"lon": -4.2150
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/zenarruza-center"
+}
+}
+]
+},
+{
+"id": "loc-comillas",
+"nombre": "Comillas",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.3860,
+"lon": -4.2920
+},
+"geo": {
+"elevation_m": 23
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Lupa",
+"Dia"
+],
+"restaurantes": [
+"El Capricho",
+"La Aldea",
+"Marisquería El Pescador"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/alb-zenarruza",
+"booking": "https://www.booking.com/city/es/comillas.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-com-01",
+"nombre": "El Capricho de Gaudí",
+"tipo": "Civil",
+"siglo": "XIX",
+"estilo": "Modernista",
+"descripcion": "Palacete diseñado por Antoni Gaudí decorado con girasoles cerámicos.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3872,
+"lon": -4.2940
+}
+},
+{
+"id": "pat-com-02",
+"nombre": "Universidad Pontificia",
+"tipo": "Cultura",
+"siglo": "XIX",
+"estilo": "Neogótico-Mudéjar",
+"descripcion": "Majestuoso edificio que domina la villa desde la colina.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3895,
+"lon": -4.2990
+}
+}
+],
+"albergues": [
+{
+"id": "alb-com-01",
+"nombre": "Albergue de Peregrinos de Comillas",
+"tipo": "municipal",
+"plazas": 20,
+"precio": {
+"min": 10,
+"max": 10
+},
+"contacto": {
+"telefono": "+34 606 24 39 49"
+},
+"servicios": [
+"duchas",
+"centro pueblo"
+],
+"rating": 3.7,
+"coordenadas": {
+"lat": 43.3855,
+"lon": -4.2915
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/gernika-center"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-14",
+"numero": 14,
+"nombre": "Comillas - Colombres",
+"slug": "comillas-colombres",
+"distancia_km": 29.0,
+"desnivel": {
+"positivo_m": 520,
+"negativo_m": 410
+},
+"dificultad": "Alta",
+"tipo_firme": [
+"asfalto",
+"pista forestal",
+"sendero playa"
+],
+"resumen": "Etapa que atraviesa el Parque Natural de Oyambre y la emblemática villa de San Vicente de la Barquera para cruzar el río Deva y entrar en Asturias.",
+"resumen_trazado": [
+"Salida de Comillas hacia la ría de la Rabia.",
+"Atravesar el Parque Natural de Oyambre.",
+"Llegada a San Vicente de la Barquera por el Puente de la Maza.",
+"Paso por Serdio.",
+"Descenso hacia Unquera y cruce del puente a Bustio (Asturias).",
+"Ascenso final a Colombres."
+],
+"tiempos": {
+"min_horas": 6.5,
+"media_horas": 7.5,
+"max_horas": 9.5
+},
+"riesgos": [
+"Viento fuerte en Oyambre",
+"Tramo de carretera nacional peligroso en Pesués",
+"Fatiga por desnivel acumulado en el tramo final"
+],
+"hidratacion": "Buena en San Vicente y Unquera. Regular en el Parque de Oyambre.",
+"clima_tipico": "Viento racheado costero, nubes de evolución frecuentes.",
+"tags": [
+"puente",
+"parque natural",
+"indianos",
+"frontera"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.3860,
+"lon": -4.2920
+},
+"fin": {
+"lat": 43.3745,
+"lon": -4.5385
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 29.2,
+"desnivel_positivo": 525
+},
+"relaciones": {
+"etapa_anterior": "cdn-13",
+"etapa_siguiente": "cdn-15"
+},
+"localidades": [
+{
+"id": "loc-san-vicente",
+"nombre": "San Vicente de la Barquera",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.3845,
+"lon": -4.3995
+},
+"geo": {
+"elevation_m": 8
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Lupa",
+"Dia"
+],
+"restaurantes": [
+"Restaurante Las Redes",
+"Augusto",
+"Los Marinos"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.app.goo.gl/alb-gernika",
+"booking": "https://www.booking.com/city/es/san-vicente-de-la-barquera.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-svb-01",
+"nombre": "Puente de la Maza",
+"tipo": "Ingeniería",
+"siglo": "XV",
+"estilo": "Medieval",
+"descripcion": "Puente de 28 arcos que cruza la ría, uno de los más largos de la España medieval.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3835,
+"lon": -4.4055
+}
+},
+{
+"id": "pat-svb-02",
+"nombre": "Iglesia de Santa María de los Ángeles",
+"tipo": "Religioso",
+"siglo": "XIII",
+"estilo": "Gótico",
+"descripcion": "Iglesia fortificada situada en la parte alta del casco histórico.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3852,
+"lon": -4.4010
+}
+}
+],
+"albergues": [
+{
+"id": "alb-svb-01",
+"nombre": "Albergue de Peregrinos de San Vicente",
+"tipo": "municipal",
+"plazas": 20,
+"precio": {
+"min": 10,
+"max": 10
+},
+"contacto": {
+"telefono": "+34 659 08 61 24"
+},
+"servicios": [
+"vistas ría",
+"duchas"
+],
+"rating": 3.6,
+"coordenadas": {
+"lat": 43.3848,
+"lon": -4.4005
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DLezama"
+}
+}
+]
+},
+{
+"id": "loc-colombres",
+"nombre": "Colombres",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.3745,
+"lon": -4.5385
+},
+"geo": {
+"elevation_m": 120
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Tienda de alimentación Colombres"
+],
+"restaurantes": [
+"La Parra",
+"El Pollo"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BLezama"
+},
+"patrimonio": [
+{
+"id": "pat-col-01",
+"nombre": "Quinta de Guadalupe (Archivo de Indianos)",
+"tipo": "Civil",
+"siglo": "XX",
+"estilo": "Ecléctico indiano",
+"descripcion": "Suntuoso palacete que alberga el Museo de la Emigración.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3762,
+"lon": -4.5395
+}
+}
+],
+"albergues": [
+{
+"id": "alb-col-01",
+"nombre": "Albergue El Pollo",
+"tipo": "privado",
+"plazas": 30,
+"precio": {
+"min": 15,
+"max": 18
+},
+"contacto": {
+"telefono": "+34 985 41 21 00"
+},
+"servicios": [
+"restaurante",
+"wifi"
+],
+"rating": 4.1,
+"coordenadas": {
+"lat": 43.3740,
+"lon": -4.5370
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DPortugalete"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-15",
+"numero": 15,
+"nombre": "Colombres - Llanes",
+"slug": "colombres-llanes",
+"distancia_km": 23.2,
+"desnivel": {
+"positivo_m": 410,
+"negativo_m": 520
+},
+"dificultad": "Moderada",
+"tipo_firme": [
+"asfalto",
+"sendero costero",
+"pista forestal"
+],
+"resumen": "Primera etapa íntegramente asturiana. Recorre la costa caliza de Llanes, pasando por playas espectaculares y los famosos bufones.",
+"resumen_trazado": [
+"Salida de Colombres hacia Buelna.",
+"Paso por Pendueles.",
+"Variante costera GR-E9 hacia Vidiago (recomendada).",
+"Paso por Purón.",
+"Entrada en Llanes por el barrio de la Portilla."
+],
+"tiempos": {
+"min_horas": 5.0,
+"media_horas": 6.0,
+"max_horas": 7.5
+},
+"riesgos": [
+"Zonas de barro intenso en Pendueles tras lluvia",
+"Cruce de la carretera N-634"
+],
+"hidratacion": "Buena. Fuentes en Buelna, Pendueles y Llanes.",
+"clima_tipico": "Clima asturiano típico: nublado, orbayu frecuente.",
+"tags": [
+"asturias",
+"playas",
+"marina",
+"sidrerías"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.3745,
+"lon": -4.5385
+},
+"fin": {
+"lat": 43.4195,
+"lon": -4.7550
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 23.3,
+"desnivel_positivo": 415
+},
+"relaciones": {
+"etapa_anterior": "cdn-14",
+"etapa_siguiente": "cdn-16"
+},
+"localidades": [
+{
+"id": "loc-pendueles",
+"nombre": "Pendueles",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.4005,
+"lon": -4.6290
+},
+"geo": {
+"elevation_m": 45
+},
+"servicios": {
+"fuentes": true,
+"farmacia": false,
+"centro_salud": false,
+"supermercados": [],
+"restaurantes": [
+"Restaurante La Parrilla"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BPortugalete"
+},
+"patrimonio": [
+{
+"id": "pat-pen-01",
+"nombre": "Iglesia de San Acisclo",
+"tipo": "Religioso",
+"siglo": "XVIII",
+"estilo": "Popular asturiano",
+"descripcion": "Templo parroquial de estructura sencilla rodeado de pastos.",
+"relevancia": "baja",
+"visitable": false,
+"coordenadas": {
+"lat": 43.4002,
+"lon": -4.6285
+}
+}
+],
+"albergues": [
+{
+"id": "alb-pen-01",
+"nombre": "Albergue Casa de la Rectoral",
+"tipo": "privado",
+"plazas": 25,
+"precio": {
+"min": 18,
+"max": 20
+},
+"contacto": {
+"telefono": "+34 686 21 00 13"
+},
+"servicios": [
+"jardín",
+"comidas"
+],
+"rating": 4.5,
+"coordenadas": {
+"lat": 43.4005,
+"lon": -4.6275
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DPobe%C3%B1a"
+}
+}
+]
+},
+{
+"id": "loc-llanes",
+"nombre": "Llanes",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.4195,
+"lon": -4.7550
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Alimerka",
+"Eroski"
+],
+"restaurantes": [
+"El Cuera",
+"Sidrería El Mirador",
+"Los Cubos"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BPobe%C3%B1a",
+"booking": "https://www.booking.com/city/es/llanes.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-lla-01",
+"nombre": "Cubos de la Memoria",
+"tipo": "Arte",
+"siglo": "XXI",
+"estilo": "Contemporáneo",
+"descripcion": "Intervención de Agustín Ibarrola sobre los bloques de hormigón del puerto.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.4225,
+"lon": -4.7510
+}
+},
+{
+"id": "pat-lla-02",
+"nombre": "Basílica de Santa María de la Asunción",
+"tipo": "Religioso",
+"siglo": "XIII",
+"estilo": "Gótico",
+"descripcion": "Uno de los escasos ejemplos del gótico en el oriente asturiano.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.4212,
+"lon": -4.7545
+}
+}
+],
+"albergues": [
+{
+"id": "alb-lla-01",
+"nombre": "Albergue de Peregrinos de Llanes (La Estación)",
+"tipo": "municipal",
+"plazas": 30,
+"precio": {
+"min": 10,
+"max": 10
+},
+"contacto": {
+"telefono": "+34 659 08 61 24"
+},
+"servicios": [
+"duchas",
+"taquillas"
+],
+"rating": 3.6,
+"coordenadas": {
+"lat": 43.4190,
+"lon": -4.7570
+},
+"links": {
+"google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DLaredo"
+}
+}
+]
+}
+]
+}
+]
+}

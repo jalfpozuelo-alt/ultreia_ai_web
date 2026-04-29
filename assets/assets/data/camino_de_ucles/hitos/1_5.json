@@ -1,0 +1,446 @@
+{
+  "camino": "Camino de Uclés (Ruta de la Orden de Santiago)",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cdu-01",
+      "numero": 1,
+      "nombre": "Madrid - Rivas-Vaciamadrid",
+      "slug": "madrid-rivas-vaciamadrid",
+      "distancia_km": 28.5,
+      "desnivel": {
+        "positivo_m": 180,
+        "negativo_m": 220
+      },
+      "dificultad": "Media",
+      "tipo_firme": [
+        "asfalto",
+        "carril bici",
+        "pista de tierra"
+      ],
+      "resumen": "Salida urbana desde el centro de Madrid que atraviesa el Parque Lineal del Manzanares y el Parque Regional del Sureste, siguiendo el curso de los ríos hacia la periferia.",
+      "resumen_trazado": [
+        "Inicio en la Iglesia de Santiago en Madrid centro.",
+        "Descenso hacia el río Manzanares.",
+        "Travesía por el Parque Lineal del Manzanares.",
+        "Paso bajo la M-40 y zona de Vallecas Villa.",
+        "Enlace con el Camino de servicio del Canal de la Isabel II.",
+        "Entrada en Rivas-Vaciamadrid por el Casco Antiguo."
+      ],
+      "tiempos": {
+        "min_horas": 6.0,
+        "media_horas": 7.0,
+        "max_horas": 8.5
+      },
+      "riesgos": [
+        "Tráfico intenso en cruces urbanos de Madrid",
+        "Escasez de sombras en el tramo final",
+        "Confusión de señalización en nudos de autovías"
+      ],
+      "hidratacion": "Buena en los primeros 15km; crítica al entrar en el Parque Regional del Sureste.",
+      "clima_tipico": "Continental seco, calor extremo en verano.",
+      "tags": [
+        "urbano",
+        "parque lineal",
+        "río"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 40.4175, "lon": -3.7073 },
+        "fin": { "lat": 40.3325, "lon": -3.5221 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 28.6,
+        "desnivel_positivo": 185
+      },
+      "relaciones": {
+        "etapa_anterior": null,
+        "etapa_siguiente": "cdu-02"
+      },
+      "localidades": [
+        {
+          "id": "loc-madrid",
+          "nombre": "Madrid",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 40.4175, "lon": -3.7073 },
+          "geo": { "elevation_m": 655 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Mercadona", "Carrefour", "Lidl"],
+            "restaurantes": ["Casa Labra", "Botín"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=40.4175,-3.7073" },
+          "patrimonio": [
+            {
+              "id": "pat-santiago-mad",
+              "nombre": "Iglesia de Santiago y San Juan Bautista",
+              "tipo": "Religioso", "siglo": "XIX", "estilo": "Neoclásico",
+              "descripcion": "Punto de inicio tradicional de los caminos desde Madrid.",
+              "relevancia": "alta", "visitable": true,
+              "coordenadas": { "lat": 40.4176, "lon": -3.7075 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-rivas",
+          "nombre": "Rivas-Vaciamadrid",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.3325, "lon": -3.5221 },
+          "geo": { "elevation_m": 560 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Hiber", "Ahorramás"],
+            "restaurantes": ["El Fogón de Paco"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=40.3325,-3.5221" },
+          "patrimonio": [],
+          "albergues": []
+        }
+      ]
+    },
+    {
+      "id": "cdu-02",
+      "numero": 2,
+      "nombre": "Rivas-Vaciamadrid - Arganda del Rey",
+      "slug": "rivas-arganda",
+      "distancia_km": 14.2,
+      "desnivel": {
+        "positivo_m": 150,
+        "negativo_m": 100
+      },
+      "dificultad": "Baja",
+      "tipo_firme": ["asfalto", "vía verde"],
+      "resumen": "Etapa corta y cómoda que utiliza la Vía Verde del Tajuña, ideal para recuperar fuerzas tras la salida de Madrid.",
+      "resumen_trazado": [
+        "Salida de Rivas hacia el Puente sobre el río Jarama.",
+        "Cruce del histórico Puente de Hierro.",
+        "Enlace con la Vía Verde del Tajuña (asfalto rojo).",
+        "Entrada en Arganda del Rey por la zona industrial/residencial."
+      ],
+      "tiempos": {
+        "min_horas": 3.0,
+        "media_horas": 3.5,
+        "max_horas": 4.5
+      },
+      "riesgos": [
+        "Calor acumulado en el asfalto de la Vía Verde",
+        "Cruce de carreteras secundarias"
+      ],
+      "hidratacion": "Buena. Fuentes disponibles en el inicio y fin.",
+      "clima_tipico": "Seco, vientos de valle.",
+      "tags": ["vía verde", "cómoda", "jarama"],
+      "coordenadas": {
+        "inicio": { "lat": 40.3325, "lon": -3.5221 },
+        "fin": { "lat": 40.3015, "lon": -3.4385 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 14.2, "desnivel_positivo": 150 },
+      "relaciones": {
+        "etapa_anterior": "cdu-01",
+        "etapa_siguiente": "cdu-03"
+      },
+      "localidades": [
+        {
+          "id": "loc-arganda",
+          "nombre": "Arganda del Rey",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.3015, "lon": -3.4385 },
+          "geo": { "elevation_m": 613 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Ahorramás", "Mercadona"],
+            "restaurantes": ["La Tertulia"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=40.3015,-3.4385" },
+          "patrimonio": [
+            {
+              "id": "pat-arganda-iglesia",
+              "nombre": "Iglesia de San Juan Bautista",
+              "tipo": "Religioso", "siglo": "XVII", "estilo": "Herreriano",
+              "descripcion": "Principal hito religioso de la localidad.",
+              "relevancia": "media", "visitable": true,
+              "coordenadas": { "lat": 40.3018, "lon": -3.4375 }
+            }
+          ],
+          "albergues": []
+        }
+      ]
+    },
+    {
+      "id": "cdu-03",
+      "numero": 3,
+      "nombre": "Arganda del Rey - Estremera",
+      "slug": "arganda-estremera",
+      "distancia_km": 35.5,
+      "desnivel": {
+        "positivo_m": 450,
+        "negativo_m": 380
+      },
+      "dificultad": "Alta",
+      "tipo_firme": ["vía verde", "pista de tierra"],
+      "resumen": "La etapa reina por distancia. Atraviesa la Alcarria madrileña pasando por pueblos emblemáticos como Morata y Perales.",
+      "resumen_trazado": [
+        "Ascenso por la Vía Verde hacia Morata de Tajuña.",
+        "Descenso hacia Perales de Tajuña.",
+        "Paso por Tielmes siguiendo la vega del río.",
+        "Ascenso moderado hacia Carabaña.",
+        "Tramo final por pistas agrícolas hasta Estremera."
+      ],
+      "tiempos": {
+        "min_horas": 7.5,
+        "media_horas": 9.0,
+        "max_horas": 11.0
+      },
+      "riesgos": [
+        "Fatiga por kilometraje excesivo",
+        "Aislamiento en los últimos 10km",
+        "Altas temperaturas sin refugio"
+      ],
+      "hidratacion": "Buena en Morata, Perales y Tielmes. Muy escasa hasta Estremera.",
+      "clima_tipico": "Continental, gran amplitud térmica.",
+      "tags": ["alcarria", "tajuña", "desafío"],
+      "coordenadas": {
+        "inicio": { "lat": 40.3015, "lon": -3.4385 },
+        "fin": { "lat": 40.1192, "lon": -3.1115 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 35.7, "desnivel_positivo": 455 },
+      "relaciones": {
+        "etapa_anterior": "cdu-02",
+        "etapa_siguiente": "cdu-04"
+      },
+      "localidades": [
+        {
+          "id": "loc-morata",
+          "nombre": "Morata de Tajuña",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 40.2285, "lon": -3.4345 },
+          "geo": { "elevation_m": 537 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Tiendas locales"],
+            "restaurantes": ["Mesón El Cid"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": false
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=40.2285,-3.4345" },
+          "patrimonio": [],
+          "albergues": []
+        },
+        {
+          "id": "loc-estremera",
+          "nombre": "Estremera",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.1192, "lon": -3.1115 },
+          "geo": { "elevation_m": 642 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Autoservicio local"],
+            "restaurantes": ["Bar El Hogar"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=40.1192,-3.1115" },
+          "patrimonio": [
+            {
+              "id": "pat-estremera-iglesia",
+              "nombre": "Iglesia de Nuestra Señora de los Remedios",
+              "tipo": "Religioso", "siglo": "XVI", "estilo": "Renacentista",
+              "descripcion": "Destaca por su órgano histórico.",
+              "relevancia": "media", "visitable": true,
+              "coordenadas": { "lat": 40.1190, "lon": -3.1110 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-estremera-mun",
+              "nombre": "Albergue Municipal de Estremera",
+              "tipo": "municipal", "plazas": 12,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 918 72 14 43" },
+              "servicios": ["duchas", "cocina"], "rating": 4.1,
+              "coordenadas": { "lat": 43.2842, "lon": -2.1645 },
+              "links": { "google_maps": "http://maps.google.com/?q=40.1185,-3.1120" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdu-04",
+      "numero": 4,
+      "nombre": "Estremera - Barajas de Melo",
+      "slug": "estremera-barajas",
+      "distancia_km": 25.4,
+      "desnivel": {
+        "positivo_m": 320,
+        "negativo_m": 280
+      },
+      "dificultad": "Media",
+      "tipo_firme": ["tierra", "pista forestal"],
+      "resumen": "Entrada en la provincia de Cuenca. Etapa de carácter agrícola que cruza el río Tajo y se adentra en paisajes de paramera.",
+      "resumen_trazado": [
+        "Salida de Estremera por caminos de labor.",
+        "Cruce del canal del Estremera.",
+        "Paso por el límite provincial Madrid-Cuenca.",
+        "Descenso hacia el valle del río Tajo.",
+        "Ascenso continuo hacia Barajas de Melo."
+      ],
+      "tiempos": {
+        "min_horas": 5.5,
+        "media_horas": 6.5,
+        "max_horas": 8.0
+      },
+      "riesgos": [
+        "Barro arcilloso muy pegajoso en caso de lluvia",
+        "Aislamiento total entre poblaciones",
+        "Falta de fuentes en ruta"
+      ],
+      "hidratacion": "Crítica. Obligatorio cargar 2L en Estremera.",
+      "clima_tipico": "Viento frecuente, cielos despejados.",
+      "tags": ["cuenca", "tajo", "soledad"],
+      "coordenadas": {
+        "inicio": { "lat": 40.1192, "lon": -3.1115 },
+        "fin": { "lat": 40.1235, "lon": -2.9155 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 25.5, "desnivel_positivo": 325 },
+      "relaciones": {
+        "etapa_anterior": "cdu-03",
+        "etapa_siguiente": "cdu-05"
+      },
+      "localidades": [
+        {
+          "id": "loc-barajas",
+          "nombre": "Barajas de Melo",
+          "tipo": "final",
+          "coordenadas": { "lat": 40.1235, "lon": -2.9155 },
+          "geo": { "elevation_m": 701 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Tienda local"],
+            "restaurantes": ["Bar El Casino"],
+            "cajeros": false, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=40.1235,-2.9155" },
+          "patrimonio": [
+            {
+              "id": "pat-barajas-iglesia",
+              "nombre": "Iglesia de San Juan Bautista",
+              "tipo": "Religioso", "siglo": "XV", "estilo": "Gótico-Plateresco",
+              "relevancia": "media", "visitable": true,
+              "coordenadas": { "lat": 40.1230, "lon": -2.9150 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-barajas-mun",
+              "nombre": "Albergue de Barajas de Melo",
+              "tipo": "municipal", "plazas": 16,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 969 13 40 01" },
+              "servicios": ["cocina", "duchas"], "rating": 4.2,
+              "coordenadas": { "lat": 40.1228, "lon": -2.9160 },
+              "links": { "google_maps": "http://maps.google.com/?q=40.1228,-2.9160" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdu-05",
+      "numero": 5,
+      "nombre": "Barajas de Melo - Uclés",
+      "slug": "barajas-ucles",
+      "distancia_km": 36.8,
+      "desnivel": {
+        "positivo_m": 510,
+        "negativo_m": 450
+      },
+      "dificultad": "Muy Alta",
+      "tipo_firme": ["tierra", "asfalto"],
+      "resumen": "Etapa final de gran belleza y dureza. Cruza la autovía A-3 y culmina con la impresionante vista del Monasterio de Uclés, el 'Escorial de la Mancha'.",
+      "resumen_trazado": [
+        "Salida de Barajas por pistas hacia Huelves.",
+        "Cruce elevado sobre la autovía A-3.",
+        "Llegada a Huelves y ascenso al páramo.",
+        "Tramo de llanura interminable hacia Uclés.",
+        "Ascenso final al recinto fortificado del Monasterio."
+      ],
+      "tiempos": {
+        "min_horas": 8.0,
+        "media_horas": 10.0,
+        "max_horas": 12.0
+      },
+      "riesgos": [
+        "Distancia excesiva para una última etapa",
+        "Viento en contra en el páramo de Huelves",
+        "Desorientación en pistas parcelarias"
+      ],
+      "hidratacion": "Crítica. Solo hay agua en Huelves (km 26).",
+      "clima_tipico": "Viento fuerte, sol implacable.",
+      "tags": ["monasterio", "historia", "meta"],
+      "coordenadas": {
+        "inicio": { "lat": 40.1235, "lon": -2.9155 },
+        "fin": { "lat": 39.9815, "lon": -2.8622 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 36.9, "desnivel_positivo": 515 },
+      "relaciones": {
+        "etapa_anterior": "cdu-04",
+        "etapa_siguiente": null
+      },
+      "localidades": [
+        {
+          "id": "loc-huelves",
+          "nombre": "Huelves",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 40.0450, "lon": -2.8520 },
+          "geo": { "elevation_m": 820 },
+          "servicios": {
+            "fuentes": true, "farmacia": false, "centro_salud": false,
+            "supermercados": [], "restaurantes": ["Bar local"],
+            "cajeros": false, "transporte_publico": false, "alojamiento": false
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=40.0450,-2.8520" },
+          "patrimonio": [],
+          "albergues": []
+        },
+        {
+          "id": "loc-ucles",
+          "nombre": "Uclés",
+          "tipo": "final",
+          "coordenadas": { "lat": 39.9815, "lon": -2.8622 },
+          "geo": { "elevation_m": 863 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Tienda local"],
+            "restaurantes": ["Restaurante La Recua"],
+            "cajeros": false, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=39.9815,-2.8622" },
+          "patrimonio": [
+            {
+              "id": "pat-monasterio-ucles",
+              "nombre": "Monasterio de Santiago",
+              "tipo": "Religioso", "siglo": "XVI", "estilo": "Herreriano-Plateresco",
+              "descripcion": "Antigua sede de la Orden de Santiago, conocido como 'El Escorial de la Mancha'.",
+              "relevancia": "alta", "visitable": true,
+              "coordenadas": { "lat": 39.9818, "lon": -2.8625 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-ucles-rel",
+              "nombre": "Albergue del Monasterio de Uclés",
+              "tipo": "religioso", "plazas": 40,
+              "precio": { "min": 15, "max": 15 },
+              "contacto": { "telefono": "+34 967 13 20 44" },
+              "servicios": ["cena", "clausura", "visita"], "rating": 4.8,
+              "coordenadas": { "lat": 39.9820, "lon": -2.8630 },
+              "links": { "google_maps": "http://maps.google.com/?q=39.9820,-2.8630" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

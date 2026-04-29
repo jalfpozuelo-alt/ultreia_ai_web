@@ -1,0 +1,505 @@
+{
+  "camino": "Del Norte (Ruta de la Costa)",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cdn-21",
+      "numero": 21,
+      "nombre": "Avilés - Muros de Nalón",
+      "slug": "aviles-muros-de-nalon",
+      "distancia_km": 22.7,
+      "desnivel": {
+        "positivo_m": 420,
+        "negativo_m": 310
+      },
+      "dificultad": "Moderada",
+      "tipo_firme": [
+        "asfalto",
+        "pista de tierra",
+        "hormigón"
+      ],
+      "resumen": "Etapa de salida del entorno industrial de Avilés para recuperar el paisaje costero asturiano. Destaca el paso por el Castillo de San Martín y la desembocadura del río Nalón.",
+      "resumen_trazado": [
+        "Salida del casco histórico de Avilés.",
+        "Ascenso por San Cristóbal hacia Salinas.",
+        "Travesía urbana por Salinas y su playa.",
+        "Paso por San Juan de Nieva.",
+        "Ascenso al Alto del Pito.",
+        "Llegada a Muros de Nalón."
+      ],
+      "tiempos": {
+        "min_horas": 5.0,
+        "media_horas": 6.0,
+        "max_horas": 7.5
+      },
+      "riesgos": [
+        "Cruce de carreteras locales con tráfico",
+        "Confusión en la señalización a la salida de Avilés"
+      ],
+      "hidratacion": "Buena. Fuentes en Salinas, Piedras Blancas y El Pito.",
+      "clima_tipico": "Templado con brisa marina.",
+      "tags": [
+        "costa",
+        "playa-salinas",
+        "nalón"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5562, "lon": -5.9248 },
+        "fin": { "lat": 43.5428, "lon": -6.1035 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 22.8,
+        "desnivel_positivo": 425
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-20",
+        "etapa_siguiente": "cdn-22"
+      },
+      "localidades": [
+        {
+          "id": "loc-salinas",
+          "nombre": "Salinas",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.5755, "lon": -5.9550 },
+          "geo": { "elevation_m": 5 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka"],
+            "restaurantes": ["Real Balneario", "La Marina"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BTrinidad%2BLaredo" },
+          "patrimonio": [
+            {
+              "id": "pat-anclas", "nombre": "Museo de las Anclas Philippe Cousteau", "tipo": "Cultura", "siglo": "XX",
+              "descripcion": "Museo al aire libre dedicado a la cultura marinera en el Peñón de Raíces.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.5780, "lon": -5.9510 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-muros",
+          "nombre": "Muros de Nalón",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5428, "lon": -6.1035 },
+          "geo": { "elevation_m": 125 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Ultramarinos Muros"],
+            "restaurantes": ["Casa Zoilo", "La Taberna de Muros"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DG%C3%BCemes" },
+          "patrimonio": [
+            {
+              "id": "pat-valdecarsana", "nombre": "Palacio de Valdecarzana", "tipo": "Civil", "siglo": "XVI",
+              "descripcion": "Conjunto palaciego renacentista con recinto amurallado.", "relevancia": "media",
+              "visitable": false, "coordenadas": { "lat": 43.5420, "lon": -6.1042 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-muros-priv", "nombre": "Albergue Casa de la Estación", "tipo": "privado", "plazas": 14,
+              "precio": { "min": 18, "max": 20 },
+              "contacto": { "telefono": "+34 626 51 04 22" },
+              "servicios": ["wifi", "lavadora"], "rating": 4.3,
+              "coordenadas": { "lat": 43.5435, "lon": -6.1020 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BG%C3%BCemes" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-22",
+      "numero": 22,
+      "nombre": "Muros de Nalón - Soto de Luiña",
+      "slug": "muros-de-nalon-soto-de-luina",
+      "distancia_km": 16.0,
+      "desnivel": {
+        "positivo_m": 450,
+        "negativo_m": 480
+      },
+      "dificultad": "Baja",
+      "tipo_firme": [
+        "sendero",
+        "asfalto",
+        "pista forestal"
+      ],
+      "resumen": "Etapa corta y rompepiernas que atraviesa el Paisaje Protegido de la Costa Occidental asturiana, pasando por la bella villa de Cudillero.",
+      "resumen_trazado": [
+        "Descenso desde Muros hacia el río Nalón.",
+        "Cruce del viaducto.",
+        "Llegada a El Pito (entrada a Cudillero).",
+        "Travesía por valles boscosos.",
+        "Llegada a Soto de Luiña."
+      ],
+      "tiempos": {
+        "min_horas": 3.5,
+        "media_horas": 4.5,
+        "max_horas": 5.5
+      },
+      "riesgos": [
+        "Subidas y bajadas constantes (toboganes)",
+        "Carretera nacional N-632 en tramos sin arcén"
+      ],
+      "hidratacion": "Buena. Fuentes en Cudillero y Soto de Luiña.",
+      "clima_tipico": "Frecuente bruma húmeda.",
+      "tags": [
+        "cudillero",
+        "bosque",
+        "palacios"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5428, "lon": -6.1035 },
+        "fin": { "lat": 43.5575, "lon": -6.2315 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 16.1,
+        "desnivel_positivo": 455
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-21",
+        "etapa_siguiente": "cdn-23"
+      },
+      "localidades": [
+        {
+          "id": "loc-cudillero",
+          "nombre": "El Pito / Cudillero",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.5605, "lon": -6.1465 },
+          "geo": { "elevation_m": 80 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermerkados": ["Pequeñas tiendas en el puerto"],
+            "restaurantes": ["El Pescador", "Casa Mari"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DSomo%2BCantabria" },
+          "patrimonio": [
+            {
+              "id": "pat-selgas", "nombre": "Palacio de los Selgas", "tipo": "Civil", "siglo": "XIX",
+              "descripcion": "Llamado el 'Versalles asturiano', posee una colección de arte única (Goyas) y jardines versallescos.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.5615, "lon": -6.1475 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-soto",
+          "nombre": "Soto de Luiña",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5575, "lon": -6.2315 },
+          "geo": { "elevation_m": 45 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": false,
+            "supermercados": ["Tienda La Central"],
+            "restaurantes": ["Hotel Valle de Luiña", "Bar Casa Lulú"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DSantander%2BCantabria" },
+          "patrimonio": [
+            {
+              "id": "pat-soto-sm", "nombre": "Iglesia de Santa María", "tipo": "Religioso", "siglo": "XVIII",
+              "estilo": "Barroco", "descripcion": "Antiguo hospital de peregrinos vinculado al templo.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.5578, "lon": -6.2320 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-soto-mun", "nombre": "Albergue de Peregrinos de Soto de Luiña", "tipo": "municipal", "plazas": 40,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 985 59 71 85" },
+              "servicios": ["duchas", "patio"], "rating": 3.8,
+              "coordenadas": { "lat": 43.5580, "lon": -6.2310 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BPeregrinos%2BSantander" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-23",
+      "numero": 23,
+      "nombre": "Soto de Luiña - Cadavedo",
+      "slug": "soto-de-luina-cadavedo",
+      "distancia_km": 18.5,
+      "desnivel": {
+        "positivo_m": 580,
+        "negativo_m": 550
+      },
+      "dificultad": "Moderada",
+      "tipo_firme": [
+        "pista forestal",
+        "asfalto",
+        "sendero"
+      ],
+      "resumen": "Etapa que ofrece la opción de seguir por la carretera o la variante de montaña (Sierra de las Palancas). Paisaje de rasa costera y bosques.",
+      "resumen_trazado": [
+        "Salida de Soto de Luiña.",
+        "Ascenso exigente hacia Las Palancas (si se elige variante).",
+        "Paso por Ballota.",
+        "Cruce del puente de Ballota.",
+        "Llegada a Cadavedo."
+      ],
+      "tiempos": {
+        "min_horas": 4.5,
+        "media_horas": 5.5,
+        "max_horas": 7.0
+      },
+      "riesgos": [
+        "Tramo de la Sierra de las Palancas peligroso con niebla",
+        "Bajadas pronunciadas con piedras sueltas"
+      ],
+      "hidratacion": "Crítica en la variante de montaña. Sin fuentes en 10km.",
+      "clima_tipico": "Viento fuerte en las zonas altas.",
+      "tags": [
+        "montaña",
+        "vistas-mar",
+        "aislamiento"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5575, "lon": -6.2315 },
+        "fin": { "lat": 43.5505, "lon": -6.3765 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 18.7,
+        "desnivel_positivo": 585
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-22",
+        "etapa_siguiente": "cdn-24"
+      },
+      "localidades": [
+        {
+          "id": "loc-cadavedo",
+          "nombre": "Cadavedo",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5505, "lon": -6.3765 },
+          "geo": { "elevation_m": 90 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Tienda local"],
+            "restaurantes": ["La Curuxa", "Casino de Cadavedo"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DSantillana%2Bdel%2BMar" },
+          "patrimonio": [
+            {
+              "id": "pat-regalina", "nombre": "Ermita de la Regalina", "tipo": "Religioso", "siglo": "XX",
+              "descripcion": "Situada sobre un acantilado espectacular, es el hito icónico de Cadavedo.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.5585, "lon": -6.3750 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-cada-priv", "nombre": "Albergue de Peregrinos Cadavedo", "tipo": "privado", "plazas": 30,
+              "precio": { "min": 15, "max": 18 },
+              "contacto": { "telefono": "+34 661 54 81 21" },
+              "servicios": ["cocina", "lavadora"], "rating": 4.1,
+              "coordenadas": { "lat": 43.5502, "lon": -6.3770 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BSantillana%2BMar" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-24",
+      "numero": 24,
+      "nombre": "Cadavedo - Luarca",
+      "slug": "cadavedo-luarca",
+      "distancia_km": 15.8,
+      "desnivel": {
+        "positivo_m": 290,
+        "negativo_m": 350
+      },
+      "dificultad": "Baja",
+      "tipo_firme": [
+        "asfalto",
+        "camino de tierra"
+      ],
+      "resumen": "Etapa corta y agradable por la costa asturiana que termina en la 'Villa Blanca', uno de los puertos más fotogénicos del Cantábrico.",
+      "resumen_trazado": [
+        "Salida de Cadavedo hacia Villademoros.",
+        "Paso por Canero.",
+        "Ascenso suave y descenso hacia Luarca.",
+        "Llegada al barrio de pescadores."
+      ],
+      "tiempos": {
+        "min_horas": 3.5,
+        "media_horas": 4.0,
+        "max_horas": 5.0
+      },
+      "riesgos": [
+        "Tramos de carretera N-634 con tráfico rápido"
+      ],
+      "hidratacion": "Buena. Fuentes frecuentes en Canero y núcleos locales.",
+      "clima_tipico": "Húmedo, brisa marina suave.",
+      "tags": [
+        "puerto",
+        "luarca",
+        "costa"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5505, "lon": -6.3765 },
+        "fin": { "lat": 43.5445, "lon": -6.5352 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 16.0,
+        "desnivel_positivo": 295
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-23",
+        "etapa_siguiente": "cdn-25"
+      },
+      "localidades": [
+        {
+          "id": "loc-luarca",
+          "nombre": "Luarca",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5445, "lon": -6.5352 },
+          "geo": { "elevation_m": 5 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka", "Lupa"],
+            "restaurantes": ["El Mirador del Chano", "La Mezcla"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DCobreces%2BCantabria" },
+          "patrimonio": [
+            {
+              "id": "pat-cementerio-luar", "nombre": "Cementerio de Luarca", "tipo": "Histórico", "siglo": "XIX",
+              "descripcion": "Considerado uno de los cementerios con las mejores vistas al mar del mundo.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.5460, "lon": -6.5315 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-luar-mun", "nombre": "Albergue de Peregrinos de Luarca", "tipo": "municipal", "plazas": 15,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 659 08 61 24" },
+              "servicios": ["duchas", "lavadero"], "rating": 3.5,
+              "coordenadas": { "lat": 43.5415, "lon": -6.5375 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BEl%2BPino%2BCobreces" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-25",
+      "numero": 25,
+      "nombre": "Luarca - La Caridad",
+      "slug": "luarca-la-caridad",
+      "distancia_km": 29.6,
+      "desnivel": {
+        "positivo_m": 610,
+        "negativo_m": 590
+      },
+      "dificultad": "Alta",
+      "tipo_firme": [
+        "asfalto",
+        "camino de tierra",
+        "pista forestal"
+      ],
+      "resumen": "Etapa de largo recorrido por la costa occidental asturiana. Paisaje de praderas infinitas y cruce de pequeños ríos que desembocan en acantilados.",
+      "resumen_trazado": [
+        "Salida de Luarca ascendiendo hacia el cementerio.",
+        "Travesía por el concejo de Navia.",
+        "Descenso hacia la villa de Navia y cruce de la ría.",
+        "Paso por Jarrio.",
+        "Llegada a La Caridad."
+      ],
+      "tiempos": {
+        "min_horas": 7.0,
+        "media_horas": 8.5,
+        "max_horas": 10.5
+      },
+      "riesgos": [
+        "Fatiga por kilometraje",
+        "Cruce de la ría de Navia por el puente de la carretera"
+      ],
+      "hidratacion": "Buena en Navia y La Caridad. Moderada en el tramo Luarca-Navia.",
+      "clima_tipico": "Variable, viento racheado de componente oeste.",
+      "tags": [
+        "navia",
+        "larga",
+        "rasa-costera"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5445, "lon": -6.5352 },
+        "fin": { "lat": 43.5575, "lon": -6.8290 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 29.8,
+        "desnivel_positivo": 615
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-24",
+        "etapa_siguiente": "cdn-26"
+      },
+      "localidades": [
+        {
+          "id": "loc-navia",
+          "nombre": "Navia",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.5392, "lon": -6.7195 },
+          "geo": { "elevation_m": 10 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka", "Eroski"],
+            "restaurantes": ["La Magaya", "Restaurante Navia"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DComillas%2BCantabria" },
+          "patrimonio": [
+            {
+              "id": "pat-palacio-navia", "nombre": "Palacio de Arias", "tipo": "Civil", "siglo": "XIX",
+              "descripcion": "Edificio modernista representativo del poder económico de la villa.", "relevancia": "media",
+              "visitable": false, "coordenadas": { "lat": 43.5398, "lon": -6.7185 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-lacaridad",
+          "nombre": "La Caridad",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5575, "lon": -6.8290 },
+          "geo": { "elevation_m": 50 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka"],
+            "restaurantes": ["Bar El Trébol", "Restaurante El Rincón"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BMunicipal%2BComillas" },
+          "patrimonio": [
+            {
+              "id": "pat-iglesia-caridad", "nombre": "Iglesia de San Miguel", "tipo": "Religioso", "siglo": "XVIII",
+              "descripcion": "Templo parroquial de estructura robusta y estilo popular.", "relevancia": "baja",
+              "visitable": false, "coordenadas": { "lat": 43.5570, "lon": -6.8285 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-caridad-mun", "nombre": "Albergue de Peregrinos de La Caridad", "tipo": "municipal", "plazas": 18,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 659 08 61 24" },
+              "servicios": ["cocina", "lavadero"], "rating": 3.9,
+              "coordenadas": { "lat": 43.5565, "lon": -6.8310 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DSan%2BVicente%2Bde%2Bla%2BBarquera" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

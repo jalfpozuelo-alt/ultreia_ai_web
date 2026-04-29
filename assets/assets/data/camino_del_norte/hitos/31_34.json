@@ -1,0 +1,310 @@
+{
+  "camino": "Del Norte (Ruta de la Costa)",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cdn-31",
+      "numero": 31,
+      "nombre": "Vilalba - Baamonde",
+      "slug": "vilalba-baamonde",
+      "distancia_km": 18.6,
+      "desnivel": {
+        "positivo_m": 210,
+        "negativo_m": 230
+      },
+      "dificultad": "Baja",
+      "tipo_firme": [
+        "asfalto",
+        "pista forestal",
+        "tierra"
+      ],
+      "resumen": "Etapa de transición cómoda por la Terra Chá. El trazado es mayoritariamente llano y atraviesa parajes fluviales de gran valor natural como el del río Parga.",
+      "resumen_trazado": [
+        "Salida de Vilalba hacia San Juan de Alba.",
+        "Travesía por la parroquia de Pedrouzos.",
+        "Paso por el puente de Saa sobre el río Labrada.",
+        "Entrada en Baamonde por el núcleo urbano."
+      ],
+      "tiempos": {
+        "min_horas": 4.0,
+        "media_horas": 5.0,
+        "max_horas": 6.0
+      },
+      "riesgos": [
+        "Tramos de carretera LU-P-6513 sin arcén",
+        "Aburrimiento por monotonía de las rectas"
+      ],
+      "hidratacion": "Buena en núcleos habitados, aunque se recomienda llevar agua para los tramos inter-parroquiales.",
+      "clima_tipico": "Niebla matinal cerrada, sol de justicia en verano por falta de sombras.",
+      "tags": [
+        "río-parga",
+        "llano",
+        "confortable"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.2985, "lon": -7.6815 },
+        "fin": { "lat": 43.1765, "lon": -7.7470 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 18.7,
+        "desnivel_positivo": 215
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-30",
+        "etapa_siguiente": "cdn-32"
+      },
+      "localidades": [
+        {
+          "id": "loc-baamonde",
+          "nombre": "Baamonde",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.1765, "lon": -7.7470 },
+          "geo": { "elevation_m": 420 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Autoservicio Baamonde"],
+            "restaurantes": ["Galicia", "Mesón de Alberto"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BPeregrinos%2BSan%2BVicente%2BBarquera" },
+          "patrimonio": [
+            {
+              "id": "pat-castan-01", "nombre": "Castaño de Baamonde", "tipo": "Natural", "siglo": "XX",
+              "descripcion": "Castaño milenario con una capilla tallada en su interior por el artista Víctor Corral.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.1772, "lon": -7.7475 }
+            },
+            {
+              "id": "pat-baam-sp", "nombre": "Iglesia de Santiago de Baamonde", "tipo": "Religioso", "siglo": "XII",
+              "estilo": "Gótico rural / Románico", "descripcion": "Templo parroquial vinculado históricamente a la Orden de Santiago.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.1770, "lon": -7.7482 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-baa-mun", "nombre": "Albergue de Peregrinos de Baamonde", "tipo": "municipal", "plazas": 94,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 660 39 68 29", "telefono_link": "tel:+34660396829" },
+              "servicios": ["cocina", "lavandería", "wifi"], "rating": 3.8,
+              "coordenadas": { "lat": 43.1760, "lon": -7.7460 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DColombres%2BAsturias" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-32",
+      "numero": 32,
+      "nombre": "Baamonde - Sobrado dos Monxes",
+      "slug": "baamonde-sobrado-dos-monxes",
+      "distancia_km": 40.8,
+      "desnivel": {
+        "positivo_m": 680,
+        "negativo_m": 540
+      },
+      "dificultad": "Muy Alta",
+      "tipo_firme": [
+        "tierra",
+        "corredoira",
+        "asfalto"
+      ],
+      "resumen": "La etapa más larga y solitaria del Camino del Norte. Atraviesa la muga entre Lugo y A Coruña a través de los Montes da Albariña hacia uno de los monasterios más imponentes de Galicia.",
+      "resumen_trazado": [
+        "Salida de Baamonde cruzando el río Parga.",
+        "Paso por San Breixo y Parga.",
+        "Ascenso hacia A Lagoa.",
+        "Entrada en la provincia de A Coruña por A Roxica.",
+        "Travesía por los montes da Albariña.",
+        "Llegada al Monasterio de Santa María de Sobrado."
+      ],
+      "tiempos": {
+        "min_horas": 9.0,
+        "media_horas": 11.0,
+        "max_horas": 14.0
+      },
+      "riesgos": [
+        "Aislamiento crítico (más de 15km sin servicios)",
+        "Fatiga extrema por distancia",
+        "Pérdida de señalización en los montes si hay niebla"
+      ],
+      "hidratacion": "Crítica. Obligatorio salir con 2L de agua. No hay puntos de carga fiables en los tramos de monte.",
+      "clima_tipico": "Viento fuerte en las zonas altas, alta humedad.",
+      "tags": [
+        "monasterio",
+        "soledad",
+        "desafío",
+        "reina"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.1765, "lon": -7.7470 },
+        "fin": { "lat": 43.0402, "lon": -8.0215 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 41.2, "desnivel_positivo": 690 },
+      "relaciones": { "etapa_anterior": "cdn-31", "etapa_siguiente": "cdn-33" },
+      "localidades": [
+        {
+          "id": "loc-sobrado",
+          "nombre": "Sobrado dos Monxes",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.0402, "lon": -8.0215 },
+          "geo": { "elevation_m": 510 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermerkados": ["Pequeño comercio Sobrado", "Ultramarinos"],
+            "restaurantes": ["Mesón do Mosteiro", "Bar Plaza"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BEl%2BPollo%2BColombres" },
+          "patrimonio": [
+            {
+              "id": "pat-mon-sob", "nombre": "Monasterio de Santa María de Sobrado", "tipo": "Religioso", "siglo": "X",
+              "estilo": "Barroco", "descripcion": "Monumento Nacional y Patrimonio de la Humanidad. Su fachada barroca y claustros son de los más impresionantes del Císter.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.0400, "lon": -8.0225 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-sob-monast", "nombre": "Albergue Monasterio de Sobrado", "tipo": "religioso", "plazas": 120,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 981 78 75 09" },
+              "servicios": ["duchas", "patio", "oración"], "rating": 4.6,
+              "coordenadas": { "lat": 43.0405, "lon": -8.0220 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DPendueles%2BAsturias" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-33",
+      "numero": 33,
+      "nombre": "Sobrado dos Monxes - Arzúa",
+      "slug": "sobrado-dos-monxes-arzua",
+      "distancia_km": 21.4,
+      "desnivel": {
+        "positivo_m": 350,
+        "negativo_m": 480
+      },
+      "dificultad": "Moderada",
+      "tipo_firme": ["pista forestal", "asfalto"],
+      "resumen": "Etapa de unión donde el Camino del Norte converge finalmente con el Camino Francés en Arzúa. Paisaje gallego típico de robledales y pequeñas aldeas.",
+      "resumen_trazado": [
+        "Salida de Sobrado por el embalse.",
+        "Paso por Carelle.",
+        "Travesía por la aldea de Boimorto.",
+        "Encuentro con el Camino Francés en Arzúa."
+      ],
+      "tiempos": { "min_horas": 4.5, "media_horas": 5.5, "max_horas": 7.0 },
+      "riesgos": ["Confusión en los cruces de Boimorto", "Aumento drástico del tráfico de peregrinos al llegar a Arzúa"],
+      "hidratacion": "Buena en Boimorto y Arzúa.",
+      "clima_tipico": "Suave, clima típico del interior de A Coruña.",
+      "tags": ["confluencia", "queso", "galicia-verde"],
+      "coordenadas": {
+        "inicio": { "lat": 43.0402, "lon": -8.0215 },
+        "fin": { "lat": 42.9265, "lon": -8.1630 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 21.5, "desnivel_positivo": 355 },
+      "relaciones": { "etapa_anterior": "cdn-32", "etapa_siguiente": "cdn-34" },
+      "localidades": [
+        {
+          "id": "loc-arzua",
+          "nombre": "Arzúa",
+          "tipo": "final",
+          "coordenadas": { "lat": 42.9265, "lon": -8.1630 },
+          "geo": { "elevation_m": 380 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Gadis", "Dia", "Eroski"],
+            "restaurantes": ["Casa Nené", "O Queixo"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BCasa%2BRectoral%2BPendueles" },
+          "patrimonio": [
+            {
+              "id": "pat-arz-mag", "nombre": "Capilla de la Magdalena", "tipo": "Religioso", "siglo": "XIV",
+              "descripcion": "Antiguo hospital de peregrinos fundado por los agustinos.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 42.9272, "lon": -8.1615 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-arz-mun", "nombre": "Albergue de Peregrinos de Arzúa", "tipo": "municipal", "plazas": 48,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 660 39 68 30" },
+              "servicios": ["cocina", "duchas"], "rating": 3.7,
+              "coordenadas": { "lat": 42.9268, "lon": -8.1645 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DLlanes%2BAsturias" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-34",
+      "numero": 34,
+      "nombre": "Arzúa - Santiago de Compostela",
+      "slug": "arzua-santiago-de-compostela",
+      "distancia_km": 39.5,
+      "desnivel": {
+        "positivo_m": 610,
+        "negativo_m": 720
+      },
+      "dificultad": "Alta",
+      "tipo_firme": ["asfalto", "pista de tierra", "baldosa"],
+      "resumen": "Etapa final de gloria. Aunque suele dividirse pernoctando en Pedrouzo, esta es la unión definitiva con el Apóstol. Paso por el Monte do Gozo y entrada triunfal en el Obradoiro.",
+      "resumen_trazado": [
+        "Salida de Arzúa hacia O Pino.",
+        "Atravesar O Pedrouzo.",
+        "Ascenso suave a Lavacolla (donde los peregrinos se lavaban antiguamente).",
+        "Ascenso al Monte do Gozo para divisar las torres.",
+        "Entrada en Santiago por San Lázaro y rúa de San Pedro.",
+        "Llegada a la Plaza del Obradoiro."
+      ],
+      "tiempos": { "min_horas": 8.0, "media_horas": 10.0, "max_horas": 12.0 },
+      "riesgos": ["Exceso de peregrinos de todos los caminos", "Cruces peligrosos cerca del aeropuerto", "Fatiga acumulada psicológica y física"],
+      "hidratacion": "Excelente. Multitud de fuentes y bares cada pocos kilómetros.",
+      "clima_tipico": "Variable, clima compostelano (lluvia frecuente).",
+      "tags": ["meta", "obradoiro", "catedral", "final"],
+      "coordenadas": {
+        "inicio": { "lat": 42.9265, "lon": -8.1630 },
+        "fin": { "lat": 42.8806, "lon": -8.5446 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 39.7, "desnivel_positivo": 615 },
+      "relaciones": { "etapa_anterior": "cdn-33", "etapa_siguiente": null },
+      "localidades": [
+        {
+          "id": "loc-santiago",
+          "nombre": "Santiago de Compostela",
+          "tipo": "final",
+          "coordenadas": { "lat": 42.8806, "lon": -8.5446 },
+          "geo": { "elevation_m": 260 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Gadis", "Carrefour", "Eroski"],
+            "restaurantes": ["O Gato Negro", "Casa Marcelo"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3DAlbergue%2BLlanes" },
+          "patrimonio": [
+            {
+              "id": "pat-cat-sdc", "nombre": "Catedral de Santiago de Compostela", "tipo": "Religioso", "siglo": "XI-XVIII",
+              "estilo": "Románico/Barroco", "descripcion": "Meta final del Camino, guarda el sepulcro del Apóstol Santiago. Patrimonio de la Humanidad.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 42.8805, "lon": -8.5455 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-santiago-mun", "nombre": "Albergue de Peregrinos del Monte do Gozo", "tipo": "municipal", "plazas": 400,
+              "precio": { "min": 10, "max": 12 },
+              "contacto": { "telefono": "+34 981 55 85 86" },
+              "servicios": ["wifi", "lavandería", "bar"], "rating": 3.5,
+              "coordenadas": { "lat": 42.8895, "lon": -8.4940 },
+              "links": { "google_maps": "https://www.google.com/search?q=https://maps.google.com/%3Fq%3D43.4611,-5.0614" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1676 @@
+{
+"camino": "Del Norte (Ruta de la Costa)",
+"version": "1.0.Pro-Plus",
+"etapas": [
+{
+"id": "cdn-01",
+"numero": 1,
+"nombre": "Irún - San Sebastián",
+"slug": "irun-san-sebastian",
+"distancia_km": 24.8,
+"desnivel": {
+"positivo_m": 540,
+"negativo_m": 530
+},
+"dificultad": "Alta",
+"tipo_firme": [
+"asfalto",
+"pista forestal",
+"sendero pedregoso"
+],
+"resumen": "Una etapa de apertura espectacular y exigente que atraviesa el macizo de Jaizkibel, ofreciendo las primeras vistas del Cantábrico y requiriendo un cruce en barca en Pasaia.",
+"resumen_trazado": [
+"Salida desde el Puente Internacional de Santiago en Irún.",
+"Ascenso moderado hacia la Ermita de San Marcial e Irún interior.",
+"Ascenso pronunciado al Santuario de Guadalupe.",
+"Travesía por la cresta del Monte Jaizkibel con vistas oceánicas.",
+"Descenso técnico hacia Pasai Donibane.",
+"Cruce de la ría en motora hacia Pasai San Pedro.",
+"Ascenso final al Monte Ulía.",
+"Entrada a San Sebastián por la Playa de la Zurriola."
+],
+"tiempos": {
+"min_horas": 5.5,
+"media_horas": 7.0,
+"max_horas": 8.5
+},
+"riesgos": [
+"Niebla cerrada en la cresta de Jaizkibel",
+"Exposición solar alta sin sombras en el macizo",
+"Descenso resbaladizo al Faro de la Plata con lluvia"
+],
+"hidratacion": "Crítica. No hay fuentes fiables entre Guadalupe y Pasaia (aprox. 15km).",
+"clima_tipico": "Oceánico húmedo, frecuentes galernas y cambios bruscos de visibilidad.",
+"tags": [
+"costa",
+"montaña",
+"vistas",
+"exigente"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.3514,
+"lon": -1.7891
+},
+"fin": {
+"lat": 43.3213,
+"lon": -1.9839
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 24.85,
+"desnivel_positivo": 542
+},
+"relaciones": {
+"etapa_anterior": null,
+"etapa_siguiente": "cdn-02"
+},
+"localidades": [
+{
+"id": "loc-irun",
+"nombre": "Irún",
+"tipo": "inicio",
+"coordenadas": {
+"lat": 43.3391,
+"lon": -1.7894
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Eroski",
+"Carrefour Market"
+],
+"restaurantes": [
+"Restaurante Iñigo Lavado",
+"Gaztelumendi-Antxon"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/irun-start",
+"booking": "https://www.booking.com/city/es/irun.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-juncal",
+"nombre": "Iglesia de Nuestra Señora del Juncal",
+"tipo": "Religioso",
+"siglo": "XVI",
+"estilo": "Gótico vasco",
+"descripcion": "Declarada Monumento Histórico-Artístico Nacional, alberga una talla románica de la Virgen.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3386,
+"lon": -1.7885
+}
+}
+],
+"albergues": [
+{
+"id": "alb-jakobi",
+"nombre": "Albergue de Peregrinos Jakobi",
+"tipo": "municipal",
+"plazas": 60,
+"precio": {
+"min": 10,
+"max": 10
+},
+"contacto": {
+"telefono": "+34 943 62 41 85",
+"telefono_link": "tel:+34943624185",
+"email": "irun@caminodesantiago.gal",
+"email_link": "mailto:irun@caminodesantiago.gal"
+},
+"servicios": [
+"cocina",
+"lavadero",
+"parking bicis"
+],
+"rating": 4.2,
+"coordenadas": {
+"lat": 43.3361,
+"lon": -1.7915
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/alb-jakobi"
+}
+}
+]
+},
+{
+"id": "loc-hondarribia",
+"nombre": "Hondarribia (Guadalupe)",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.3694,
+"lon": -1.8214
+},
+"geo": {
+"elevation_m": 185
+},
+"servicios": {
+"fuentes": true,
+"farmacia": false,
+"centro_salud": false,
+"supermercados": [],
+"restaurantes": [
+"Cantina de Guadalupe"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": false
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Santuario+de+Guadalupe+Hondarribia",
+"booking": null
+},
+"patrimonio": [
+{
+"id": "pat-guadalupe",
+"nombre": "Santuario de Guadalupe",
+"tipo": "Religioso",
+"siglo": "XVI",
+"estilo": "Barroco popular",
+"descripcion": "Ermita fortificada dedicada a la patrona de la ciudad, con vistas espectaculares a la bahía de Txingudi.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3692,
+"lon": -1.8213
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-pasaia",
+"nombre": "Pasai Donibane",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.3275,
+"lon": -1.9125
+},
+"geo": {
+"elevation_m": 2
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": false,
+"supermercados": [
+"Pequeño comercio local"
+],
+"restaurantes": [
+"Casa Cámara",
+"Txulotxo"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/pasaia-donibane",
+"booking": null
+},
+"patrimonio": [
+{
+"id": "pat-victorhugo",
+"nombre": "Casa de Víctor Hugo",
+"tipo": "Civil",
+"siglo": "XVII",
+"estilo": "Arquitectura popular vasca",
+"descripcion": "Casa donde residió el escritor francés en 1843, hoy convertida en museo y oficina de turismo.",
+"relevancia": "media",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3267,
+"lon": -1.9123
+}
+}
+],
+"albergues": [
+{
+"id": "alb-santa-ana",
+"nombre": "Albergue Santa Ana",
+"tipo": "parroquial",
+"plazas": 14,
+"precio": {
+"min": 12,
+"max": 12
+},
+"contacto": {
+"telefono": "+34 630 51 41 04",
+"telefono_link": "tel:+34630514104",
+"email": null,
+"email_link": null
+},
+"servicios": [
+"duchas",
+"mantas"
+],
+"rating": 4.4,
+"coordenadas": {
+"lat": 43.3265,
+"lon": -1.9118
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/alb-santa-ana"
+}
+}
+]
+},
+{
+"id": "loc-pasaisp",
+"nombre": "Pasai San Pedro",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.3259,
+"lon": -1.9167
+},
+"geo": {
+"elevation_m": 2
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Dia"
+],
+"restaurantes": [
+"Boga Boga",
+"Muguruza"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": false
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Pasai+San+Pedro"
+},
+"patrimonio": [
+{
+"id": "pat-albaola",
+"nombre": "Factoría Marítima Vasca Albaola",
+"tipo": "Cultura",
+"siglo": "XXI",
+"descripcion": "Astillero museo donde se construye una réplica del ballenero San Juan del siglo XVI.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3276,
+"lon": -1.9213
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-donostia",
+"nombre": "San Sebastián",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.3213,
+"lon": -1.9839
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Lidl",
+"Mercadona",
+"Super Amara"
+],
+"restaurantes": [
+"Gandarias",
+"Borda Berri",
+"Arzak"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=San+Sebastian",
+"booking": "https://www.booking.com/city/es/san-sebastian.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-basilica-coro",
+"nombre": "Basílica de Santa María del Coro",
+"tipo": "Religioso",
+"siglo": "XVIII",
+"estilo": "Barroco",
+"descripcion": "Impresionante basílica situada en la Parte Vieja, punto final espiritual de la etapa.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3241,
+"lon": -1.9847
+}
+}
+],
+"albergues": [
+{
+"id": "alb-ondarreta",
+"nombre": "Albergue Juvenil Ondarreta",
+"tipo": "municipal",
+"plazas": 100,
+"precio": {
+"min": 18,
+"max": 25
+},
+"contacto": {
+"telefono": "+34 943 31 02 68",
+"telefono_link": "tel:+34943310268"
+},
+"servicios": [
+"wifi",
+"lavandería",
+"comedor"
+],
+"rating": 3.8,
+"coordenadas": {
+"lat": 43.3135,
+"lon": -2.0031
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Albergue+Ondarreta"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-02",
+"numero": 2,
+"nombre": "San Sebastián - Zarautz",
+"slug": "san-sebastian-zarautz",
+"distancia_km": 22.2,
+"desnivel": {
+"positivo_m": 480,
+"negativo_m": 490
+},
+"dificultad": "Moderada",
+"tipo_firme": [
+"asfalto",
+"cemento",
+"pista forestal"
+],
+"resumen": "Salida de la capital donostiarra por el monte Igueldo para entrar en la comarca del Txakoli, con un descenso marcado hacia la ría de Orio.",
+"resumen_trazado": [
+"Salida por el Paseo de la Concha.",
+"Ascenso al Monte Igueldo por el barrio del Antiguo.",
+"Travesía por pistas rurales hacia Igeldo.",
+"Descenso pronunciado por calzada cementada hacia Orio.",
+"Cruce del puente sobre el río Oria.",
+"Ascenso a la Ermita de San Martín.",
+"Entrada a Zarautz por la zona de Talaimendi."
+],
+"tiempos": {
+"min_horas": 4.5,
+"media_horas": 5.5,
+"max_horas": 6.5
+},
+"riesgos": [
+"Hormigón resbaladizo en el descenso a Orio",
+"Tráfico en la salida de San Sebastián"
+],
+"hidratacion": "Buena. Fuentes frecuentes en zonas urbanas y Orio.",
+"clima_tipico": "Húmedo, vientos costeros.",
+"tags": [
+"viñedos",
+"txakoli",
+"gastronomía"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.3213,
+"lon": -1.9839
+},
+"fin": {
+"lat": 43.2855,
+"lon": -2.1722
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 22.3,
+"desnivel_positivo": 485
+},
+"relaciones": {
+"etapa_anterior": "cdn-01",
+"etapa_siguiente": "cdn-03"
+},
+"localidades": [
+{
+"id": "loc-donostia2",
+"nombre": "San Sebastián (Antiguo)",
+"tipo": "inicio",
+"coordenadas": {
+"lat": 43.3150,
+"lon": -2.0020
+},
+"geo": {
+"elevation_m": 10
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Carrefour City"
+],
+"restaurantes": [
+"Rekondo"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Antiguo+San+Sebastian"
+},
+"patrimonio": [
+{
+"id": "pat-peine-viento",
+"nombre": "Peine del Viento",
+"tipo": "Arte",
+"siglo": "XX",
+"estilo": "Contemporáneo",
+"descripcion": "Conjunto de esculturas de Eduardo Chillida situadas al final de la playa de Ondarreta.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3215,
+"lon": -2.0062
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-igueldo",
+"nombre": "Igeldo",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.3056,
+"lon": -2.0435
+},
+"geo": {
+"elevation_m": 250
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": false,
+"supermercados": [
+"Ultramarinos local"
+],
+"restaurantes": [
+"Akari",
+"Buenavista"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Igeldo"
+},
+"patrimonio": [
+{
+"id": "pat-iglesia-igueldo",
+"nombre": "Iglesia de San Pedro",
+"tipo": "Religioso",
+"siglo": "XVI",
+"estilo": "Arquitectura rural",
+"descripcion": "Iglesia parroquial del barrio de Igeldo, hito en el ascenso.",
+"relevancia": "media",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3052,
+"lon": -2.0440
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-orio",
+"nombre": "Orio",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2812,
+"lon": -2.1235
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"BM Supermercados",
+"Eroski City"
+],
+"restaurantes": [
+"Asador Xixario",
+"Katxiña"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/orio-center",
+"booking": "https://www.booking.com/city/es/orio.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-san-nicolas",
+"nombre": "Iglesia de San Nicolás de Bari",
+"tipo": "Religioso",
+"siglo": "XVII",
+"estilo": "Barroco",
+"descripcion": "Iglesia que domina el casco histórico, construida sobre un antiguo templo gótico.",
+"relevancia": "media",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2810,
+"lon": -2.1260
+}
+}
+],
+"albergues": [
+{
+"id": "alb-san-martin",
+"nombre": "Albergue San Martín",
+"tipo": "parroquial",
+"plazas": 20,
+"precio": {
+"min": 12,
+"max": 12
+},
+"contacto": {
+"telefono": "+34 943 83 01 17",
+"telefono_link": "tel:+34943830117",
+"email": null,
+"email_link": null
+},
+"servicios": [
+"lavandería",
+"duchas"
+],
+"rating": 4.5,
+"coordenadas": {
+"lat": 43.2818,
+"lon": -2.1285
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/alb-san-martin"
+}
+}
+]
+},
+{
+"id": "loc-zarautz",
+"nombre": "Zarautz",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.2855,
+"lon": -2.1722
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"BM",
+"Lidl"
+],
+"restaurantes": [
+"Karlos Arguiñano",
+"Telesforo"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Zarautz"
+},
+"patrimonio": [
+{
+"id": "pat-santa-maria-zarautz",
+"nombre": "Iglesia de Santa María la Real",
+"tipo": "Religioso",
+"siglo": "XV",
+"estilo": "Gótico",
+"descripcion": "Templo parroquial que forma parte de un conjunto arqueológico monumental.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2858,
+"lon": -2.1741
+}
+}
+],
+"albergues": [
+{
+"id": "alb-zarautz-mun",
+"nombre": "Albergue de Zarautz",
+"tipo": "municipal",
+"plazas": 40,
+"precio": {
+"min": 10,
+"max": 12
+},
+"contacto": {
+"telefono": "+34 943 13 09 04"
+},
+"servicios": [
+"wifi",
+"lavandería"
+],
+"rating": 3.9,
+"coordenadas": {
+"lat": 43.2842,
+"lon": -2.1645
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Albergue+Zarautz"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-03",
+"numero": 3,
+"nombre": "Zarautz - Deba",
+"slug": "zarautz-deba",
+"distancia_km": 21.8,
+"desnivel": {
+"positivo_m": 650,
+"negativo_m": 640
+},
+"dificultad": "Alta",
+"tipo_firme": [
+"asfalto",
+"calzada medieval",
+"pista forestal"
+],
+"resumen": "Atraviesa el Geoparque del Flysch entre Zumaia y Deba, una de las zonas más bellas pero duras de la costa vasca.",
+"resumen_trazado": [
+"Paso por el Paseo Marítimo de Zarautz.",
+"Caminata costera junto a la N-634 hacia Getaria.",
+"Ascenso por calzada medieval hacia Askizu.",
+"Descenso a Zumaia.",
+"Ascenso continuo hacia el Santuario de Itziar.",
+"Descenso pronunciado hacia Deba."
+],
+"tiempos": {
+"min_horas": 5.0,
+"media_horas": 6.0,
+"max_horas": 7.5
+},
+"riesgos": [
+"Viento fuerte en los acantilados de Zumaia",
+"Desniveles acumulados fatigosos"
+],
+"hidratacion": "Puntos de agua en Getaria y Zumaia. Escasa en el tramo Zumaia-Itziar.",
+"clima_tipico": "Vientos de componente norte, alta humedad.",
+"tags": [
+"geoparque",
+"flysch",
+"panorámicas"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.2855,
+"lon": -2.1722
+},
+"fin": {
+"lat": 43.2958,
+"lon": -2.3524
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 21.9,
+"desnivel_positivo": 655
+},
+"relaciones": {
+"etStage_anterior": "cdn-02",
+"etStage_siguiente": "cdn-04"
+},
+"localidades": [
+{
+"id": "loc-zarautz3",
+"nombre": "Zarautz",
+"tipo": "inicio",
+"coordenadas": {
+"lat": 43.2855,
+"lon": -2.1722
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"BM"
+],
+"restaurantes": [
+"Kirkilla"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Zarautz"
+},
+"patrimonio": [],
+"albergues": []
+},
+{
+"id": "loc-getaria",
+"nombre": "Getaria",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.3028,
+"lon": -2.2035
+},
+"geo": {
+"elevation_m": 15
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Dia",
+"Pequeños ultramarinos"
+],
+"restaurantes": [
+"Elkano (Estrella Michelin)",
+"Kaia Kaipe"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/getaria-center",
+"booking": "https://www.booking.com/city/es/getaria.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-san-salvador",
+"nombre": "Iglesia de San Salvador",
+"tipo": "Religioso",
+"siglo": "XIV",
+"estilo": "Gótico",
+"descripcion": "Iglesia única por su suelo inclinado y por ser sede de las primeras Juntas Generales de Gipuzkoa.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3031,
+"lon": -2.2038
+}
+}
+],
+"albergues": [
+{
+"id": "alb-kanpa-getaria",
+"nombre": "Albergue Kanpa",
+"tipo": "privado",
+"plazas": 30,
+"precio": {
+"min": 20,
+"max": 25
+},
+"contacto": {
+"telefono": "+34 688 85 41 80",
+"telefono_link": "tel:+34688854180",
+"email": "info@kanpagetaria.com",
+"email_link": "mailto:info@kanpagetaria.com"
+},
+"servicios": [
+"wifi",
+"cocina",
+"taquillas"
+],
+"rating": 4.6,
+"coordenadas": {
+"lat": 43.3020,
+"lon": -2.2045
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/alb-kanpa"
+}
+}
+]
+},
+{
+"id": "loc-askizu",
+"nombre": "Askizu",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2952,
+"lon": -2.2285
+},
+"geo": {
+"elevation_m": 120
+},
+"servicios": {
+"fuentes": true,
+"farmacia": false,
+"centro_salud": false,
+"supermercados": [],
+"restaurantes": [
+"Sagar-Tona"
+],
+"cajeros": false,
+"transporte_publico": false,
+"alojamiento": false
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Askizu"
+},
+"patrimonio": [
+{
+"id": "pat-san-martin-askizu",
+"nombre": "Iglesia de San Martín de Askizu",
+"tipo": "Religioso",
+"siglo": "XV",
+"estilo": "Gótico rural",
+"descripcion": "Pequeña iglesia rural con excelentes vistas sobre la costa.",
+"relevancia": "media",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2948,
+"lon": -2.2288
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-zumaia",
+"nombre": "Zumaia",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2975,
+"lon": -2.2568
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"BM",
+"Eroski"
+],
+"restaurantes": [
+"Amaiur",
+"Pikoteo"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Zumaia"
+},
+"patrimonio": [
+{
+"id": "pat-san-pedro-zumaia",
+"nombre": "Iglesia de San Pedro Apóstol",
+"tipo": "Religioso",
+"siglo": "XIV",
+"estilo": "Gótico",
+"descripcion": "Templo parroquial de aspecto fortificado.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2978,
+"lon": -2.2575
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-itziar",
+"nombre": "Itziar",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2835,
+"lon": -2.3295
+},
+"geo": {
+"elevation_m": 290
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": false,
+"supermercados": [
+"Tienda local"
+],
+"restaurantes": [
+"Salegi",
+"Itziar"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Itziar"
+},
+"patrimonio": [
+{
+"id": "pat-santuario-itziar",
+"nombre": "Santuario de Nuestra Señora de Itziar",
+"tipo": "Religioso",
+"siglo": "XVI",
+"estilo": "Herreriano",
+"descripcion": "Famoso santuario que alberga una virgen románica muy venerada por los marineros.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2831,
+"lon": -2.3298
+}
+}
+],
+"albergues": [
+{
+"id": "alb-itziar",
+"nombre": "Albergue de Itziar",
+"tipo": "privado",
+"plazas": 18,
+"precio": {
+"min": 15,
+"max": 15
+},
+"contacto": {
+"telefono": "+34 943 19 90 28"
+},
+"servicios": [
+"wifi",
+"duchas"
+],
+"rating": 4.1,
+"coordenadas": {
+"lat": 43.2838,
+"lon": -2.3305
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Albergue+Itziar"
+}
+}
+]
+},
+{
+"id": "loc-deba",
+"nombre": "Deba",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.2958,
+"lon": -2.3524
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Dia",
+"Eroski"
+],
+"restaurantes": [
+"Urgain",
+"Café Bar Calbetón"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Deba"
+},
+"patrimonio": [
+{
+"id": "pat-santa-maria-deba",
+"nombre": "Iglesia de Santa María la Real",
+"tipo": "Religioso",
+"siglo": "XV",
+"estilo": "Gótico",
+"descripcion": "Declarada Monumento Nacional, posee un impresionante claustro gótico.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2965,
+"lon": -2.3530
+}
+}
+],
+"albergues": [
+{
+"id": "alb-deba-mun",
+"nombre": "Albergue de Peregrinos de Deba",
+"tipo": "municipal",
+"plazas": 56,
+"precio": {
+"min": 5,
+"max": 8
+},
+"contacto": {
+"telefono": "+34 943 19 24 52"
+},
+"servicios": [
+"cocina",
+"lavandería"
+],
+"rating": 4.5,
+"coordenadas": {
+"lat": 43.2952,
+"lon": -2.3521
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Albergue+Deba"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-04",
+"numero": 4,
+"nombre": "Deba - Markina-Xemein",
+"slug": "deba-markina-xemein",
+"distancia_km": 24.3,
+"desnivel": {
+"positivo_m": 740,
+"negativo_m": 700
+},
+"dificultad": "Muy Alta",
+"tipo_firme": [
+"pista forestal",
+"tierra",
+"sendero"
+],
+"resumen": "Una de las etapas más aisladas y duras. Cruza el límite entre Gipuzkoa y Bizkaia a través del Monte Arno, sin apenas poblaciones intermedias.",
+"resumen_trazado": [
+"Salida de Deba cruzando el puente sobre el río.",
+"Ascenso continuo y duro por pistas forestales.",
+"Travesía por la falda del Monte Arno.",
+"Paso por el valle kárstico de Olatz.",
+"Descenso hacia la vega del río Artibai.",
+"Entrada en Markina-Xemein."
+],
+"tiempos": {
+"min_horas": 6.5,
+"media_horas": 7.5,
+"max_horas": 9.0
+},
+"riesgos": [
+"Pérdida de señalización en cruces forestales",
+"Barro extremo en épocas de lluvia",
+"Aislamiento (más de 15km sin servicios)"
+],
+"hidratacion": "Escasa. Solo hay una fuente fiable en Olatz (km 7). Obligatorio llevar 2 litros.",
+"clima_tipico": "Nieblas matinales, alta humedad de montaña.",
+"tags": [
+"soledad",
+"montaña",
+"desafío"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.2958,
+"lon": -2.3524
+},
+"fin": {
+"lat": 43.2684,
+"lon": -2.4965
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 24.4,
+"desnivel_positivo": 745
+},
+"relaciones": {
+"etapa_anterior": "cdn-03",
+"etapa_siguiente": "cdn-05"
+},
+"localidades": [
+{
+"id": "loc-deba4",
+"nombre": "Deba",
+"tipo": "inicio",
+"coordenadas": {
+"lat": 43.2958,
+"lon": -2.3524
+},
+"geo": {
+"elevation_m": 5
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Dia"
+],
+"restaurantes": [
+"Ipar-haizea"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Deba"
+},
+"patrimonio": [],
+"albergues": []
+},
+{
+"id": "loc-olatz",
+"nombre": "Olatz",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2505,
+"lon": -2.4005
+},
+"geo": {
+"elevation_m": 180
+},
+"servicios": {
+"fuentes": true,
+"farmacia": false,
+"centro_salud": false,
+"supermercados": [],
+"restaurantes": [
+"Taberna de Olatz"
+],
+"cajeros": false,
+"transporte_publico": false,
+"alojamiento": false
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Olatz"
+},
+"patrimonio": [
+{
+"id": "pat-ermita-olatz",
+"nombre": "Ermita de San Isidro",
+"tipo": "Religioso",
+"siglo": "XVII",
+"estilo": "Arquitectura rural",
+"descripcion": "Pequeña ermita en el solitario valle de Olatz.",
+"relevancia": "baja",
+"visitable": false,
+"coordenadas": {
+"lat": 43.2510,
+"lon": -2.4010
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-markina",
+"nombre": "Markina-Xemein",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.2684,
+"lon": -2.4965
+},
+"geo": {
+"elevation_m": 85
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"BM Supermercados",
+"Eroski"
+],
+"restaurantes": [
+"Restaurante Vega",
+"Pikua"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/markina-center",
+"booking": "https://www.booking.com/city/es/markina.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-arretxinaga",
+"nombre": "Ermita de San Miguel de Arretxinaga",
+"tipo": "Religioso",
+"sigle": "XVIII",
+"estilo": "Barroco popular",
+"descripcion": "Curiosa ermita hexagonal construida alrededor de tres enormes piedras naturales que se sostienen entre sí.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2665,
+"lon": -2.4921
+}
+}
+],
+"albergues": [
+{
+"id": "alb-markina",
+"nombre": "Albergue de Markina-Xemein (Pelaio Enbeita)",
+"tipo": "municipal",
+"plazas": 40,
+"precio": {
+"min": 12,
+"max": 12
+},
+"contacto": {
+"telefono": "+34 609 03 15 26",
+"telefono_link": "tel:+34609031526",
+"email": null,
+"email_link": null
+},
+"servicios": [
+"cocina",
+"lavandería",
+"taquillas"
+],
+"rating": 4.1,
+"coordenadas": {
+"lat": 43.2681,
+"lon": -2.4958
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/alb-markina"
+}
+}
+]
+}
+]
+},
+{
+"id": "cdn-05",
+"numero": 5,
+"nombre": "Markina-Xemein - Gernika",
+"slug": "markina-xemein-gernika",
+"distancia_km": 25.0,
+"desnivel": {
+"positivo_m": 450,
+"negativo_m": 460
+},
+"dificultad": "Moderada",
+"tipo_firme": [
+"pista forestal",
+"asfalto",
+"camino de tierra"
+],
+"resumen": "Etapa de carácter espiritual que pasa por el Monasterio de Zenarruza y termina en la histórica villa de Gernika.",
+"resumen_trazado": [
+"Salida de Markina por la vega del Artibai.",
+"Ascenso moderado hacia la Colegiata de Zenarruza.",
+"Descenso hacia Munitibar.",
+"Ascenso al balcón de Bizkaia (Gontzegarai).",
+"Bajada continua por senderos y asfalto hacia Gernika."
+],
+"tiempos": {
+"min_horas": 5.5,
+"media_horas": 6.5,
+"max_horas": 8.0
+},
+"riesgos": [
+"Tramos de carretera sin arcén",
+"Cruce de la BI-635"
+],
+"hidratacion": "Buena en Zenarruza y Munitibar.",
+"clima_tipico": "Variable, nieblas en los valles.",
+"tags": [
+"historia",
+"monasterio",
+"paz"
+],
+"coordenadas": {
+"inicio": {
+"lat": 43.2684,
+"lon": -2.4965
+},
+"fin": {
+"lat": 43.3121,
+"lon": -2.6785
+}
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 25.1,
+"desnivel_positivo": 455
+},
+"relaciones": {
+"etapa_anterior": "cdn-04",
+"etapa_siguiente": "cdn-06"
+},
+"localidades": [
+{
+"id": "loc-markina5",
+"nombre": "Markina-Xemein",
+"tipo": "inicio",
+"coordenadas": {
+"lat": 43.2684,
+"lon": -2.4965
+},
+"geo": {
+"elevation_m": 85
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"BM"
+],
+"restaurantes": [
+"Arkupe"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Markina"
+},
+"patrimonio": [],
+"albergues": []
+},
+{
+"id": "loc-bolibar",
+"nombre": "Bolibar",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2492,
+"lon": -2.5535
+},
+"geo": {
+"elevation_m": 165
+},
+"servicios": {
+"fuentes": true,
+"farmacia": false,
+"centro_salud": false,
+"supermercados": [
+"Tienda local"
+],
+"restaurantes": [
+"Bar Bolibar"
+],
+"cajeros": false,
+"transporte_publico": true,
+"alojamiento": false
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Bolibar"
+},
+"patrimonio": [
+{
+"id": "pat-bolibar-simon",
+"nombre": "Museo Simón Bolívar",
+"tipo": "Cultura",
+"siglo": "XX",
+"descripcion": "Museo dedicado al Libertador, cuyos antepasados procedían de esta localidad.",
+"relevancia": "media",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2495,
+"lon": -2.5538
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-zenarruza",
+"nombre": "Zenarruza",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2505,
+"lon": -2.5185
+},
+"geo": {
+"elevation_m": 310
+},
+"servicios": {
+"fuentes": true,
+"farmacia": false,
+"centro_salud": false,
+"supermercados": [],
+"restaurantes": [
+"Bar del Monasterio"
+],
+"cajeros": false,
+"transporte_publico": false,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/zenarruza-center",
+"booking": null
+},
+"patrimonio": [
+{
+"id": "pat-colegiata-zenarruza",
+"nombre": "Colegiata de Zenarruza",
+"tipo": "Religioso",
+"siglo": "XV",
+"estilo": "Gótico-Renacentista",
+"descripcion": "Antigua colegiata declarada Monumento Nacional, hito fundamental del camino vizcaíno.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.2505,
+"lon": -2.5185
+}
+}
+],
+"albergues": [
+{
+"id": "alb-zenarruza",
+"nombre": "Albergue de Zenarruza",
+"tipo": "parroquial",
+"plazas": 15,
+"precio": {
+"min": 15,
+"max": 15
+},
+"contacto": {
+"telefono": "+34 946 16 41 71",
+"telefono_link": "tel:+34946164171",
+"email": "hospederia@zenarruza.org",
+"email_link": "mailto:hospederia@zenarruza.org"
+},
+"servicios": [
+"oración",
+"cena comunitaria"
+],
+"rating": 4.8,
+"coordenadas": {
+"lat": 43.2506,
+"lon": -2.5180
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/alb-zenarruza"
+}
+}
+]
+},
+{
+"id": "loc-munitibar",
+"nombre": "Munitibar",
+"tipo": "intermedia",
+"coordenadas": {
+"lat": 43.2588,
+"lon": -2.5385
+},
+"geo": {
+"elevation_m": 185
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Pequeña tienda"
+],
+"restaurantes": [
+"Herriko Taberna"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": false
+},
+"links": {
+"google_maps": "https://maps.google.com/?q=Munitibar"
+},
+"patrimonio": [
+{
+"id": "pat-munitibar-iglesia",
+"nombre": "Iglesia de San Vicente",
+"tipo": "Religioso",
+"siglo": "XVI",
+"estilo": "Arquitectura rural",
+"descripcion": "Iglesia parroquial de Munitibar.",
+"relevancia": "baja",
+"visitable": false,
+"coordenadas": {
+"lat": 43.2585,
+"lon": -2.5388
+}
+}
+],
+"albergues": []
+},
+{
+"id": "loc-gernika",
+"nombre": "Gernika-Lumo",
+"tipo": "final",
+"coordenadas": {
+"lat": 43.3121,
+"lon": -2.6785
+},
+"geo": {
+"elevation_m": 12
+},
+"servicios": {
+"fuentes": true,
+"farmacia": true,
+"centro_salud": true,
+"supermercados": [
+"Mercadona",
+"Lidl",
+"Eroski"
+],
+"restaurantes": [
+"Boliña El Viejo",
+"Zallo Barri"
+],
+"cajeros": true,
+"transporte_publico": true,
+"alojamiento": true
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/gernika-center",
+"booking": "https://www.booking.com/city/es/guernica-y-luno.es.html"
+},
+"patrimonio": [
+{
+"id": "pat-arbol-gernika",
+"nombre": "Casa de Juntas y Árbol de Gernika",
+"tipo": "Civil",
+"siglo": "XIX",
+"estilo": "Neoclásico",
+"descripcion": "Lugar de reunión de las Juntas Generales de Bizkaia y símbolo de las libertades vascas.",
+"relevancia": "alta",
+"visitable": true,
+"coordenadas": {
+"lat": 43.3131,
+"lon": -2.6799
+}
+}
+],
+"albergues": [
+{
+"id": "alb-gernika",
+"nombre": "Albergue de Peregrinos de Gernika",
+"tipo": "municipal",
+"plazas": 50,
+"precio": {
+"min": 15,
+"max": 15
+},
+"contacto": {
+"telefono": "+34 944 65 08 24",
+"telefono_link": "tel:+34944650824",
+"email": null,
+"email_link": null
+},
+"servicios": [
+"lavandería",
+"internet",
+"cocina"
+],
+"rating": 4.3,
+"coordenadas": {
+"lat": 43.3145,
+"lon": -2.6795
+},
+"links": {
+"google_maps": "https://maps.app.goo.gl/alb-gernika"
+}
+}
+]
+}
+]
+}
+]
+}
