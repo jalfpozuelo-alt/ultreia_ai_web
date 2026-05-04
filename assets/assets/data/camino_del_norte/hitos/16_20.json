@@ -1,0 +1,566 @@
+{
+  "camino": "Del Norte (Ruta de la Costa)",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cdn-16",
+      "numero": 16,
+      "nombre": "Llanes - Ribadesella",
+      "slug": "llanes-ribadesella",
+      "distancia_km": 31.2,
+      "desnivel": {
+        "positivo_m": 450,
+        "negativo_m": 460
+      },
+      "dificultad": "Alta",
+      "tipo_firme": [
+        "asfalto",
+        "pista de tierra",
+        "hierba"
+      ],
+      "resumen": "Etapa larga de gran belleza paisajística que bordea playas emblemáticas y atraviesa el monasterio de San Antolín antes de entrar en la villa del Sella.",
+      "resumen_trazado": [
+        "Salida de Llanes hacia Poo.",
+        "Travesía por Celorio y sus playas.",
+        "Paso por Barro y Niembro.",
+        "Recorrido por la playa de San Antolín.",
+        "Ascenso a Naves y paso por Piñeres.",
+        "Entrada en Ribadesella cruzando el puente sobre el Sella."
+      ],
+      "tiempos": {
+        "min_horas": 7.0,
+        "media_horas": 8.0,
+        "max_horas": 10.0
+      },
+      "riesgos": [
+        "Excesivo kilometraje para una sola jornada",
+        "Tramos de carretera AS-263 con tráfico",
+        "Cruce de vías de FEVE en puntos sin visibilidad"
+      ],
+      "hidratacion": "Muy buena. Fuentes frecuentes en Celorio, Barro y Naves.",
+      "clima_tipico": "Viento racheado de costa, humedad alta y nubosidad variable.",
+      "tags": [
+        "playas",
+        "larga",
+        "marina",
+        "sella"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.4195, "lon": -4.7550 },
+        "fin": { "lat": 43.4611, "lon": -5.0614 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 31.4,
+        "desnivel_positivo": 455
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-15",
+        "etapa_siguiente": "cdn-17"
+      },
+      "localidades": [
+        {
+          "id": "loc-celorio",
+          "nombre": "Celorio",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.4302, "lon": -4.8125 },
+          "geo": { "elevation_m": 12 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": false,
+            "supermercados": ["Supermercado Celorio"],
+            "restaurantes": ["La Tertulia", "Restaurante Chiqui"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4302,-4.8125" },
+          "patrimonio": [
+            {
+              "id": "pat-salvador-celo", "nombre": "Monasterio de San Salvador", "tipo": "Religioso", "siglo": "XII",
+              "descripcion": "Antiguo monasterio benedictino con elementos románicos y barrocos.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.4308, "lon": -4.8115 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-celo-priv", "nombre": "Albergue Las Estaciones", "tipo": "privado", "plazas": 18,
+              "precio": { "min": 15, "max": 20 },
+              "contacto": { "telefono": "+34 626 51 04 22", "telefono_link": "tel:+34626510422" },
+              "servicios": ["wifi", "lavandería"], "rating": 4.1,
+              "coordenadas": { "lat": 43.4295, "lon": -4.8130 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.4295,-4.8130" }
+            }
+          ]
+        },
+        {
+          "id": "loc-ribadesella",
+          "nombre": "Ribadesella",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.4611, "lon": -5.0614 },
+          "geo": { "elevation_m": 5 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka", "Lidl"],
+            "restaurantes": ["El Campanu", "La Marina"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4611,-5.0614" },
+          "patrimonio": [
+            {
+              "id": "pat-tito-bustillo", "nombre": "Cueva de Tito Bustillo", "tipo": "Arqueológico", "siglo": "Paleolítico",
+              "descripcion": "Uno de los santuarios de arte rupestre más importantes del mundo. Patrimonio de la Humanidad.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.4602, "lon": -5.0685 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-riba-mun", "nombre": "Albergue Juvenil Roberto Frassinelli", "tipo": "municipal", "plazas": 30,
+              "precio": { "min": 12, "max": 14 },
+              "contacto": { "telefono": "+34 985 86 13 53", "telefono_link": "tel:+34985861353" },
+              "servicios": ["vistas ría", "comedor"], "rating": 4.2,
+              "coordenadas": { "lat": 43.4650, "lon": -5.0665 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.4650,-5.0665" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-17",
+      "numero": 17,
+      "nombre": "Ribadesella - Colunga",
+      "slug": "ribadesella-colunga",
+      "distancia_km": 20.1,
+      "desnivel": {
+        "positivo_m": 380,
+        "negativo_m": 350
+      },
+      "dificultad": "Moderada",
+      "tipo_firme": [
+        "asfalto",
+        "pista forestal",
+        "sendero"
+      ],
+      "resumen": "Etapa de transición que abandona la costa tras la playa de Vega para adentrarse en valles rurales típicos del oriente asturiano.",
+      "resumen_trazado": [
+        "Salida de Ribadesella por el puente.",
+        "Ascenso hacia San Pedro y Abeo.",
+        "Descenso a la solitaria playa de Vega.",
+        "Ascenso exigente a Berbes.",
+        "Travesía rural hacia Colunga."
+      ],
+      "tiempos": {
+        "min_horas": 4.5,
+        "media_horas": 5.5,
+        "max_horas": 6.5
+      },
+      "riesgos": [
+        "Tramos de la carretera N-632",
+        "Subida fuerte a Berbes bajo sol directo"
+      ],
+      "hidratacion": "Moderada. Cargar agua en Ribadesella; escasez hasta llegar a Vega.",
+      "clima_tipico": "Clima suave, nieblas matinales en los valles interiores.",
+      "tags": [
+        "playa-vega",
+        "rural",
+        "valles"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.4611, "lon": -5.0614 },
+        "fin": { "lat": 43.4852, "lon": -5.2675 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 20.2,
+        "desnivel_positivo": 385
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-16",
+        "etapa_siguiente": "cdn-18"
+      },
+      "localidades": [
+        {
+          "id": "loc-vega",
+          "nombre": "Vega",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.4795, "lon": -5.1380 },
+          "geo": { "elevation_m": 5 },
+          "servicios": {
+            "fuentes": true, "farmacia": false, "centro_salud": false,
+            "supermercados": [],
+            "restaurantes": ["Gueyu Mar", "Bar Playa Vega"],
+            "cajeros": false, "transporte_publico": false, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4795,-5.1380" },
+          "patrimonio": [
+            {
+              "id": "pat-playa-vega", "nombre": "Entorno Natural de Vega", "tipo": "Paisaje", "siglo": "N/A",
+              "descripcion": "Espacio protegido con dunas y acantilados de alto valor geológico.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.4805, "lon": -5.1350 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-colunga",
+          "nombre": "Colunga",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.4852, "lon": -5.2675 },
+          "geo": { "elevation_m": 35 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka"],
+            "restaurantes": ["Vista Alegre", "La Taberna"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4852,-5.2675" },
+          "patrimonio": [
+            {
+              "id": "pat-san-cristobal", "nombre": "Iglesia de San Cristóbal", "tipo": "Religioso", "siglo": "XIX",
+              "descripcion": "Templo neoclásico que destaca por su gran volumen en el centro de la villa.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.4850, "lon": -5.2665 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-colu-mun", "nombre": "Albergue de Peregrinos de Colunga", "tipo": "municipal", "plazas": 16,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 659 08 61 24", "telefono_link": "tel:+34659086124" },
+              "servicios": ["duchas", "patio"], "rating": 3.7,
+              "coordenadas": { "lat": 43.4850, "lon": -5.2660 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.4850,-5.2660" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-18",
+      "numero": 18,
+      "nombre": "Colunga - Villaviciosa",
+      "slug": "colunga-villaviciosa",
+      "distancia_km": 17.2,
+      "desnivel": {
+        "positivo_m": 350,
+        "negativo_m": 360
+      },
+      "dificultad": "Baja",
+      "tipo_firme": [
+        "asfalto",
+        "camino de tierra",
+        "pista forestal"
+      ],
+      "resumen": "Etapa corta y cómoda por la 'Comarca de la Sidra'. Atraviesa núcleos rurales con encanto y templos románicos destacados.",
+      "resumen_trazado": [
+        "Salida de Colunga hacia Pernús.",
+        "Visita a la iglesia de San Pedro de Pernús.",
+        "Ascenso al Alto de la Llera.",
+        "Descenso hacia Sebrayo.",
+        "Llegada a Villaviciosa por la zona de la ría."
+      ],
+      "tiempos": {
+        "min_horas": 3.5,
+        "media_horas": 4.5,
+        "max_horas": 5.5
+      },
+      "riesgos": [
+        "Zonas de barro en el ascenso a la Llera tras lluvias",
+        "Cruce de la N-632 en puntos de poca visibilidad"
+      ],
+      "hidratacion": "Buena. Fuentes en Pernús y Sebrayo.",
+      "clima_tipico": "Húmedo, 'orbayu' frecuente durante la mañana.",
+      "tags": [
+        "sidra",
+        "románico",
+        "corta"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.4852, "lon": -5.2675 },
+        "fin": { "lat": 43.4815, "lon": -5.4355 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 17.3,
+        "desnivel_positivo": 355
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-17",
+        "etapa_siguiente": "cdn-19"
+      },
+      "localidades": [
+        {
+          "id": "loc-pernús",
+          "nombre": "Pernús",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.4792, "lon": -5.3210 },
+          "geo": { "elevation_m": 115 },
+          "servicios": {
+            "fuentes": true, "farmacia": false, "centro_salud": false,
+            "supermerkados": [],
+            "restaurantes": ["Bar El Busgosu"],
+            "cajeros": false, "transporte_publico": false, "alojamiento": false
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4792,-5.3210" },
+          "patrimonio": [
+            {
+              "id": "pat-pern-sp", "nombre": "Iglesia de San Pedro de Pernús", "tipo": "Religioso", "siglo": "XII",
+              "estilo": "Románico", "descripcion": "Iglesia rural con portada románica bien conservada e interesantes capiteles.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.4790, "lon": -5.3215 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-villaviciosa",
+          "nombre": "Villaviciosa",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.4815, "lon": -5.4355 },
+          "geo": { "elevation_m": 10 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Mercadona", "Alimerka"],
+            "restaurantes": ["El Tonel", "Bedriñana"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4815,-5.4355" },
+          "patrimonio": [
+            {
+              "id": "pat-villa-sm", "nombre": "Santa María del Conceyu", "tipo": "Religioso", "siglo": "XIII",
+              "estilo": "Románico tardío", "descripcion": "Declarada Monumento Nacional, destaca por su portada y la calidad de sus relieves.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.4808, "lon": -5.4345 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-villa-mun", "nombre": "Albergue de Peregrinos de Villaviciosa", "tipo": "municipal", "plazas": 24,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 659 08 61 24", "telefono_link": "tel:+34659086124" },
+              "servicios": ["wifi", "lavandería"], "rating": 3.9,
+              "coordenadas": { "lat": 43.4812, "lon": -5.4330 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.4812,-5.4330" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-19",
+      "numero": 19,
+      "nombre": "Villaviciosa - Gijón",
+      "slug": "villaviciosa-gijon",
+      "distancia_km": 29.8,
+      "desnivel": {
+        "positivo_m": 720,
+        "negativo_m": 710
+      },
+      "dificultad": "Muy Alta",
+      "tipo_firme": [
+        "asfalto",
+        "hormigón",
+        "pista forestal"
+      ],
+      "resumen": "Etapa reina de Asturias por su dureza. Incluye el ascenso al Alto de la Cruz y la bifurcación hacia Oviedo para quienes optan por el Camino Primitivo.",
+      "resumen_trazado": [
+        "Salida hacia Casquita (punto de bifurcación).",
+        "Ascenso duro al Alto de la Cruz.",
+        "Descenso hacia Peón.",
+        "Segundo ascenso al Alto del Curbiellu.",
+        "Descenso prolongado con vistas a la bahía de Gijón."
+      ],
+      "tiempos": {
+        "min_horas": 7.5,
+        "media_horas": 8.5,
+        "max_horas": 11.0
+      },
+      "riesgos": [
+        "Fatiga extrema por el doble ascenso",
+        "Confusión en el cruce de Casquita (señalización dual)",
+        "Tramos de fuerte pendiente en hormigón"
+      ],
+      "hidratacion": "Crítica. Escasez de fuentes en los dos altos. Cargar agua en Peón.",
+      "clima_tipico": "Viento fuerte en los altos, posible niebla cerrada en el Curbiellu.",
+      "tags": [
+        "desafío",
+        "bifurcación",
+        "panorámica",
+        "gijón"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.4815, "lon": -5.4355 },
+        "fin": { "lat": 43.5422, "lon": -5.6644 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 30.0,
+        "desnivel_positivo": 725
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-18",
+        "etapa_siguiente": "cdn-20"
+      },
+      "localidades": [
+        {
+          "id": "loc-casquita",
+          "nombre": "Casquita",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.4682, "lon": -5.4520 },
+          "geo": { "elevation_m": 15 },
+          "servicios": {
+            "fuentes": true, "farmacia": false, "centro_salud": false,
+            "supermerkados": [],
+            "restaurantes": ["Bar El Cruce"],
+            "cajeros": false, "transporte_publico": true, "alojamiento": false
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.4682,-5.4520" },
+          "patrimonio": [
+            {
+              "id": "pat-bifurca", "nombre": "Mojón de la Bifurcación", "tipo": "Hito", "siglo": "XX",
+              "descripcion": "Punto histórico donde el peregrino decide entre seguir a Gijón o ir a Oviedo.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.4680, "lon": -5.4525 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-gijon",
+          "nombre": "Gijón",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5422, "lon": -5.6644 },
+          "geo": { "elevation_m": 5 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka", "El Corte Inglés"],
+            "restaurantes": ["Sidrería Tierra Astur", "La Galana"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.5422,-5.6644" },
+          "patrimonio": [
+            {
+              "id": "pat-gij-elogio", "nombre": "Elogio del Horizonte", "tipo": "Arte", "siglo": "XX",
+              "estilo": "Chillida", "descripcion": "Gran escultura de hormigón situada en el cerro de Santa Catalina.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.5458, "lon": -5.6635 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-gij-mun", "nombre": "Albergue de Peregrinos del Camping Deva", "tipo": "municipal", "plazas": 40,
+              "precio": { "min": 15, "max": 15 },
+              "contacto": { "telefono": "+34 985 13 33 00", "telefono_link": "tel:+34985133300" },
+              "servicios": ["piscina", "wifi", "lavadora"], "rating": 3.9,
+              "coordenadas": { "lat": 43.5230, "lon": -5.5945 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.5230,-5.5945" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cdn-20",
+      "numero": 20,
+      "nombre": "Gijón - Avilés",
+      "slug": "gijon-aviles",
+      "distancia_km": 25.0,
+      "desnivel": {
+        "positivo_m": 320,
+        "negativo_m": 330
+      },
+      "dificultad": "Moderada",
+      "tipo_firme": [
+        "asfalto",
+        "zona industrial",
+        "pista forestal"
+      ],
+      "resumen": "Etapa urbana e industrial que atraviesa el cinturón económico de Asturias. Combina la salida del puerto con el ascenso al Monte Areo.",
+      "resumen_trazado": [
+        "Salida de Gijón por el barrio de La Calzada.",
+        "Ascenso al Monte Areo.",
+        "Descenso hacia Tamón.",
+        "Entrada industrial por Trasona.",
+        "Llegada al centro histórico de Avilés."
+      ],
+      "tiempos": {
+        "min_horas": 5.5,
+        "media_horas": 6.5,
+        "max_horas": 8.0
+      },
+      "riesgos": [
+        "Tráfico pesado en las entradas urbanas",
+        "Entorno industrial con ruido y contaminación",
+        "Asfalto degradado en zonas periféricas"
+      ],
+      "hidratacion": "Buena. Fuentes en Santa Eulalia y Tamón.",
+      "clima_tipico": "Templado húmedo, brisa urbana.",
+      "tags": [
+        "industrial",
+        "niemeyer",
+        "avilés"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.5422, "lon": -5.6644 },
+        "fin": { "lat": 43.5562, "lon": -5.9248 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 25.1,
+        "desnivel_positivo": 325
+      },
+      "relaciones": {
+        "etapa_anterior": "cdn-19",
+        "etapa_siguiente": "cdn-21"
+      },
+      "localidades": [
+        {
+          "id": "loc-tamón",
+          "nombre": "Tamón",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 43.5355, "lon": -5.8150 },
+          "geo": { "elevation_m": 45 },
+          "servicios": {
+            "fuentes": true, "farmacia": false, "centro_salud": false,
+            "supermerkados": [],
+            "restaurantes": ["Bar El Parador"],
+            "cajeros": false, "transporte_publico": true, "alojamiento": false
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.5355,-5.8150" },
+          "patrimonio": [
+            {
+              "id": "pat-areo", "nombre": "Necrópolis del Monte Areo", "tipo": "Arqueológico", "siglo": "IV a.C.",
+              "descripcion": "Uno de los conjuntos dolménicos más importantes del norte peninsular.", "relevancia": "media",
+              "visitable": true, "coordenadas": { "lat": 43.5310, "lon": -5.7650 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-aviles",
+          "nombre": "Avilés",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5562, "lon": -5.9248 },
+          "geo": { "elevation_m": 10 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Alimerka", "Supersol"],
+            "restaurantes": ["Casa Lin", "Tierra Astur Avilés"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "https://maps.google.com/?q=43.5562,-5.9248" },
+          "patrimonio": [
+            {
+              "id": "pat-niemeyer", "nombre": "Centro Oscar Niemeyer", "tipo": "Cultura", "siglo": "XXI",
+              "estilo": "Contemporáneo", "descripcion": "Única obra del arquitecto brasileño en España, hito de la regeneración urbana.", "relevancia": "alta",
+              "visitable": true, "coordenadas": { "lat": 43.5575, "lon": -5.9185 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-avi-mun", "nombre": "Albergue de Peregrinos de Avilés (Pedro Solís)", "tipo": "municipal", "plazas": 56,
+              "precio": { "min": 10, "max": 10 },
+              "contacto": { "telefono": "+34 659 08 61 24", "telefono_link": "tel:+34659086124" },
+              "servicios": ["lavadero", "cocina", "wifi"], "rating": 4.1,
+              "coordenadas": { "lat": 43.5550, "lon": -5.9265 },
+              "links": { "google_maps": "https://maps.google.com/?q=43.5550,-5.9265" }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

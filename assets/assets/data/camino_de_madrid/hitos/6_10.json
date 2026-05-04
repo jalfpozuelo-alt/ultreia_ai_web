@@ -1,0 +1,204 @@
+{
+  "camino": "Camino de Santiago de Madrid",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cmad-06",
+      "numero": 6,
+      "nombre": "Segovia - Santa María la Real de Nieva",
+      "slug": "segovia-santa-maria-nieva",
+      "distancia_km": 33.2,
+      "desnivel": { "positivo_m": 150, "negativo_m": 250 },
+      "dificultad": "Alta",
+      "tipo_firme": ["vías verdes", "pistas de tierra"],
+      "resumen": "Etapa de gran longitud que abandona la Sierra para adentrarse en la campiña segoviana siguiendo el trazado de antiguas vías ferroviarias y caminos de concentración.",
+      "resumen_trazado": [
+        "Salida de Segovia por el barrio de Zamarramala.",
+        "Tránsito por la Vía Verde del Eresma hacia Añe.",
+        "Travesía por la llanura cerealista hasta Santa María la Real de Nieva."
+      ],
+      "tiempos": { "min_horas": 7.0, "media_horas": 8.5, "max_horas": 10.0 },
+      "riesgos": [
+        "Exposición solar extrema sin puntos de sombra en 30km",
+        "Aislamiento entre pequeñas localidades rurales"
+      ],
+      "hidratacion": "Necesaria carga de 2L; puntos de agua muy distantes.",
+      "coordenadas": {
+        "inicio": { "lat": 40.9481, "lon": -4.1184 },
+        "fin": { "lat": 41.0708, "lon": -4.4064 }
+      },
+      "localidades": [
+        {
+          "id": "loc-segovia-ini",
+          "nombre": "Segovia",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 40.9481, "lon": -4.1184 }
+        },
+        {
+          "id": "loc-st-maria",
+          "nombre": "Santa María la Real de Nieva",
+          "tipo": "final",
+          "coordenadas": { "lat": 41.0708, "lon": -4.4064 },
+          "servicios": { "fuentes": true, "farmacia": true, "cajeros": true, "alojamiento": true },
+          "patrimonio": [
+            { "nombre": "Monasterio de Nuestra Sra. de la Soterraña", "siglo": "XV", "estilo": "Gótico/Plateresco", "relevancia": "alta" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-07",
+      "numero": 7,
+      "nombre": "Santa María la Real de Nieva - Coca",
+      "slug": "nieva-coca",
+      "distancia_km": 22.2,
+      "desnivel": { "positivo_m": 100, "negativo_m": 150 },
+      "dificultad": "Baja",
+      "tipo_firme": ["pinares", "arena", "pistas"],
+      "resumen": "Entrada en the Tierra de Pinares. El suelo se vuelve arenoso, lo que puede dificultar el avance de las bicicletas en épocas secas.",
+      "resumen_trazado": [
+        "Paso por Nava de la Asunción con servicios completos.",
+        "Travesía por densos bosques de pino resinero.",
+        "Llegada a la monumental Coca cruzando sus murallas."
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 41.0708, "lon": -4.4064 },
+        "fin": { "lat": 41.2155, "lon": -4.5212 }
+      },
+      "localidades": [
+        {
+          "id": "loc-nieva-ini",
+          "nombre": "Santa María la Real de Nieva",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 41.0708, "lon": -4.4064 }
+        },
+        {
+          "id": "loc-coca",
+          "nombre": "Coca",
+          "tipo": "final",
+          "coordenadas": { "lat": 41.2155, "lon": -4.5212 },
+          "servicios": { "todos": true },
+          "patrimonio": [
+            { "nombre": "Castillo de Coca", "siglo": "XV", "estilo": "Gótico-Mudéjar", "relevancia": "alta" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-08",
+      "numero": 8,
+      "nombre": "Coca - Alcazarén",
+      "slug": "coca-alcazaren",
+      "distancia_km": 24.5,
+      "desnivel": { "positivo_m": 80, "negativo_m": 100 },
+      "dificultad": "Media-Baja",
+      "tipo_firme": ["arena", "pinares"],
+      "resumen": "Continuidad del paisaje forestal. Se cruza el límite provincial de Segovia a Valladolid.",
+      "resumen_trazado": [
+        "Paso por Villeguillo, último pueblo segoviano.",
+        "Travesía de pinares solitarios hacia Alcazarén."
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 41.2155, "lon": -4.5212 },
+        "fin": { "lat": 41.3711, "lon": -4.6734 }
+      },
+      "localidades": [
+        {
+          "id": "loc-coca-ini",
+          "nombre": "Coca",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 41.2155, "lon": -4.5212 }
+        },
+        {
+          "id": "loc-alcazaren",
+          "nombre": "Alcazarén",
+          "tipo": "final",
+          "coordenadas": { "lat": 41.3711, "lon": -4.6734 },
+          "servicios": { "albergue": true, "bar": true },
+          "patrimonio": [
+            { "nombre": "Iglesia de Santiago (Ábside Mudéjar)", "siglo": "XIV", "relevancia": "alta" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-09",
+      "numero": 9,
+      "nombre": "Alcazarén - Puente Duero",
+      "slug": "alcazaren-puente-duero",
+      "distancia_km": 24.9,
+      "desnivel": { "positivo_m": 120, "negativo_m": 150 },
+      "dificultad": "Media",
+      "tipo_firme": ["arena", "caminos de ribera"],
+      "resumen": "Aproximación al gran eje fluvial de Castilla. El terreno sigue siendo arenoso antes de llegar al río Adaja y finalmente al Duero.",
+      "resumen_trazado": [
+        "Paso por Valdestillas con conexión ferroviaria.",
+        "Travesía hacia el histórico Puente sobre el Duero."
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 41.3711, "lon": -4.6734 },
+        "fin": { "lat": 41.5723, "lon": -4.7734 }
+      },
+      "localidades": [
+        {
+          "id": "loc-alcazaren-ini",
+          "nombre": "Alcazarén",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 41.3711, "lon": -4.6734 }
+        },
+        {
+          "id": "loc-pduero",
+          "nombre": "Puente Duero",
+          "tipo": "final",
+          "coordenadas": { "lat": 41.5723, "lon": -4.7734 },
+          "servicios": { "albergue": true, "supermercado": true }
+        }
+      ]
+    },
+    {
+      "id": "cmad-10",
+      "numero": 10,
+      "nombre": "Puente Duero - Peñaflor de Hornija",
+      "slug": "puente-duero-penaflor",
+      "distancia_km": 27.2,
+      "desnivel": { "positivo_m": 200, "negativo_m": 100 },
+      "dificultad": "Media",
+      "tipo_firme": ["pistas agrícolas", "páramo"],
+      "resumen": "Abandono de los pinares para subir a los Montes Torozos. El paisaje cambia a páramos elevados y horizontes abiertos.",
+      "resumen_trazado": [
+        "Paso por Simancas y su Archivo General.",
+        "Ascenso al páramo hacia Ciguñuela.",
+        "Llegada al mirador natural de Peñaflor."
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 41.5723, "lon": -4.7734 },
+        "fin": { "lat": 41.7121, "lon": -4.9835 }
+      },
+      "localidades": [
+        {
+          "id": "loc-pduero-ini",
+          "nombre": "Puente Duero",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 41.5723, "lon": -4.7734 }
+        },
+        {
+          "id": "loc-simancas",
+          "nombre": "Simancas",
+          "tipo": "intermedia",
+          "coordenadas": { "lat": 41.5908, "lon": -4.8275 },
+          "servicios": { "todos": true },
+          "patrimonio": [
+            { "nombre": "Archivo General de Simancas (Castillo)", "siglo": "XV", "relevancia": "alta" }
+          ]
+        },
+        {
+          "id": "loc-penaflor",
+          "nombre": "Peñaflor de Hornija",
+          "tipo": "final",
+          "coordenadas": { "lat": 41.7121, "lon": -4.9835 },
+          "servicios": { "albergue": true, "fuente": true }
+        }
+      ]
+    }
+  ]
+}

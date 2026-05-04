@@ -1,0 +1,490 @@
+{
+"camino": "Del Norte (Ruta de la Costa)",
+"version": "1.0.Pro-Plus",
+"etapas": [
+{
+"id": "cdn-06",
+"numero": 6,
+"nombre": "Gernika - Bilbao",
+"slug": "gernika-bilbao",
+"distancia_km": 30.7,
+"desnivel": {
+"positivo_m": 820,
+"negativo_m": 810
+},
+"dificultad": "Muy Alta",
+"tipo_firme": [
+"asfalto",
+"pista forestal",
+"hormigón"
+],
+"resumen": "Etapa de gran longitud y dureza física que atraviesa el Valle de Asúa y culmina con un descenso panorámico sobre la capital vizcaína.",
+"resumen_trazado": [
+"Salida de Gernika subiendo hacia el monte Billikario.",
+"Descenso hacia Morga.",
+"Travesía por Goikolexea y Larrabetzu.",
+"Llegada a Lezama y Zamudio.",
+"Ascenso exigente al Monte Abril.",
+"Descenso hacia la Basílica de Begoña.",
+"Entrada al Casco Viejo de Bilbao."
+],
+"tiempos": {
+"min_horas": 7.5,
+"media_horas": 8.5,
+"max_horas": 10.5
+},
+"riesgos": [
+"Fatiga extrema por kilometraje",
+"Tramos de asfalto pesado en el valle",
+"Descenso pronunciado a Bilbao con impacto articular"
+],
+"hidratacion": "Buena en núcleos urbanos (Larrabetzu, Lezama, Zamudio). Crítica en los tramos de monte.",
+"clima_tipico": "Humedad alta, nieblas frecuentes en el Monte Abril.",
+"tags": [
+"larga",
+"metrópoli",
+"panorámica"
+],
+"coordenadas": {
+"inicio": { "lat": 43.3121, "lon": -2.6785 },
+"fin": { "lat": 43.2630, "lon": -2.9350 }
+},
+"gpx": {
+"disponible": true,
+"distancia_km": 30.8,
+"desnivel_positivo": 825
+},
+"relaciones": {
+"etapa_anterior": "cdn-05",
+"etapa_siguiente": "cdn-07"
+},
+"localidades": [
+{
+"id": "loc-larrabetzu",
+"nombre": "Larrabetzu",
+"tipo": "intermedia",
+"coordenadas": { "lat": 43.2605, "lon": -2.7942 },
+"geo": { "elevation_m": 73 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermercados": ["Pequeño comercio local"],
+"restaurantes": ["Azurmendi (3* Michelin)", "Gure Etxea"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Larrabetzu" },
+"patrimonio": [
+{
+"id": "pat-goikolexea", "nombre": "Iglesia de San Emeterio y Celedonio", "tipo": "Religioso", "siglo": "XVI",
+"estilo": "Gótico", "descripcion": "Iglesia juradera donde los Señores de Vizcaya juraban los fueros.",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.2662, "lon": -2.7915 }
+}
+],
+"albergues": []
+},
+{
+"id": "loc-lezama",
+"nombre": "Lezama",
+"tipo": "intermedia",
+"coordenadas": { "lat": 43.2720, "lon": -2.8360 },
+"geo": { "elevation_m": 45 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermercados": ["Eroski City"],
+"restaurantes": ["Bodega Basyman"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Lezama" },
+"patrimonio": [
+{
+"id": "pat-lezama-torre", "nombre": "Torre de Lezama", "tipo": "Civil", "siglo": "XVI",
+"descripcion": "Antigua casa-torre defensiva del linaje de los Lezama.", "relevancia": "media",
+"visitable": false, "coordenadas": { "lat": 43.2718, "lon": -2.8355 }
+}
+],
+"albergues": [
+{
+"id": "alb-lezama", "nombre": "Albergue de Peregrinos de Lezama", "tipo": "municipal", "plazas": 20,
+"precio": { "min": 12, "max": 12 },
+"contacto": { "telefono": "+34 944 55 60 07", "telefono_link": "tel:+34944556007" },
+"servicios": ["cocina", "lavadero"], "rating": 3.9,
+"coordenadas": { "lat": 43.2715, "lon": -2.8355 },
+"links": { "google_maps": "https://maps.app.goo.gl/AlbLezama" }
+}
+]
+},
+{
+"id": "loc-bilbao",
+"nombre": "Bilbao",
+"tipo": "final",
+"coordenadas": { "lat": 43.2630, "lon": -2.9350 },
+"geo": { "elevation_m": 19 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermercados": ["Mercadona", "Lidl", "Carrefour"],
+"restaurantes": ["Boroa", "Pentxo", "Víctor Montes"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Bilbao" },
+"patrimonio": [
+{
+"id": "pat-begona", "nombre": "Basílica de Nuestra Señora de Begoña", "tipo": "Religioso", "siglo": "XVI",
+"estilo": "Gótico", "descripcion": "Santuario de la patrona de Vizcaya, la 'Amatxu'.",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.2591, "lon": -2.9125 }
+},
+{
+"id": "pat-cat-santiago", "nombre": "Catedral de Santiago", "tipo": "Religioso", "siglo": "XIV",
+"estilo": "Gótico", "descripcion": "Catedral gótica situada en el corazón del Casco Viejo.",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.2575, "lon": -2.9235 }
+}
+],
+"albergues": [
+{
+"id": "alb-bilbao-mun", "nombre": "Albergue de Peregrinos de Bilbao", "tipo": "municipal", "plazas": 80,
+"precio": { "min": 15, "max": 15 },
+"contacto": { "telefono": "+34 944 27 14 70" },
+"servicios": ["wifi", "lavandería", "parking bicis"], "rating": 3.8,
+"coordenadas": { "lat": 43.2625, "lon": -2.9620 },
+"links": { "google_maps": "https://maps.app.goo.gl/AlbBilbao" }
+}
+]
+}
+]
+},
+{
+"id": "cdn-07",
+"numero": 7,
+"nombre": "Bilbao - Portugalete",
+"slug": "bilbao-portugalete",
+"distancia_km": 19.4,
+"desnivel": {
+"positivo_m": 310,
+"negativo_m": 320
+},
+"dificultad": "Baja",
+"tipo_firme": ["asfalto", "baldosa", "bidegorri"],
+"resumen": "Etapa metropolitana que sigue el curso de la ría, atravesando zonas industriales históricas hasta el Puente Colgante.",
+"resumen_trazado": [
+"Salida de Bilbao por la Gran Vía.",
+"Ascenso al Monte Cobetas.",
+"Descenso hacia Cruces y Barakaldo.",
+"Atravesar Sestao.",
+"Llegada a Portugalete."
+],
+"tiempos": { "min_horas": 4.0, "media_horas": 5.0, "max_horas": 6.0 },
+"riesgos": ["Mucho tráfico urbano", "Exceso de asfalto"],
+"hidratacion": "Excelente. Fuentes en todos los barrios.",
+"clima_tipico": "Clima de ría, temperaturas suaves.",
+"tags": ["urbano", "industrial", "ría"],
+"coordenadas": {
+"inicio": { "lat": 43.2630, "lon": -2.9350 },
+"fin": { "lat": 43.3190, "lon": -3.0180 }
+},
+"gpx": { "disponible": true, "distancia_km": 19.5, "desnivel_positivo": 315 },
+"relaciones": { "etapa_anterior": "cdn-06", "etapa_siguiente": "cdn-08" },
+"localidades": [
+{
+"id": "loc-barakaldo",
+"nombre": "Barakaldo",
+"tipo": "intermedia",
+"coordenadas": { "lat": 43.2975, "lon": -2.9845 },
+"geo": { "elevation_m": 15 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermerkados": ["Eroski", "Dia"],
+"restaurantes": ["El Desván"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Barakaldo" },
+"patrimonio": [
+{
+"id": "pat-barakaldo-ayto", "nombre": "Palacio de Justicia", "tipo": "Civil", "siglo": "XX",
+"descripcion": "Edificio representativo de la arquitectura civil moderna.",
+"relevancia": "media", "visitable": false, "coordenadas": { "lat": 43.2985, "lon": -2.9860 }
+}
+],
+"albergues": []
+},
+{
+"id": "loc-portugalete",
+"nombre": "Portugalete",
+"tipo": "final",
+"coordenadas": { "lat": 43.3190, "lon": -3.0180 },
+"geo": { "elevation_m": 25 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermercados": ["Mercadona", "Lidl"],
+"restaurantes": ["El Abra", "Marengo"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Portugalete" },
+"patrimonio": [
+{
+"id": "pat-puente-colgante", "nombre": "Puente Bizkaia", "tipo": "Ingeniería", "siglo": "XIX",
+"estilo": "Arquitectura del Hierro", "descripcion": "Patrimonio de la Humanidad UNESCO. Primer puente transbordador del mundo.",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.3228, "lon": -3.0172 }
+}
+],
+"albergues": [
+{
+"id": "alb-portu", "nombre": "Albergue Municipal de Portugalete", "tipo": "municipal", "plazas": 30,
+"precio": { "min": 12, "max": 12 },
+"contacto": { "telefono": "+34 944 72 93 14" },
+"servicios": ["wifi", "cocina"], "rating": 4.1,
+"coordenadas": { "lat": 43.3195, "lon": -3.0185 },
+"links": { "google_maps": "https://maps.app.goo.gl/AlbPortu" }
+}
+]
+}
+]
+},
+{
+"id": "cdn-08",
+"numero": 8,
+"nombre": "Portugalete - Castro Urdiales",
+"slug": "portugalete-castro-urdiales",
+"distancia_km": 27.6,
+"desnivel": {
+"positivo_m": 420,
+"negativo_m": 430
+},
+"dificultad": "Moderada",
+"tipo_firme": ["asfalto", "vía verde", "sendero"],
+"resumen": "Salida de Vizcaya por la costa hacia Cantabria, siguiendo la vía verde del Piquillo bordeando acantilados.",
+"resumen_trazado": [
+"Salida de Portugalete por bidegorri.",
+"Llegada a la Playa de la Arena.",
+"Cruce del puente de Pobeña.",
+"Vía Verde del Piquillo (acantilados).",
+"Entrada en Cantabria por Ontón.",
+"Llegada a Castro Urdiales."
+],
+"tiempos": { "min_horas": 6.0, "media_horas": 7.5, "max_horas": 9.0 },
+"riesgos": ["Tramos de N-634 si se elige la variante de carretera", "Viento en acantilados"],
+"hidratacion": "Buena en Pobeña y Castro. Escasa en la Vía Verde.",
+"clima_tipico": "Vientos oceánicos, brisa marina.",
+"tags": ["acantilados", "mar", "frontera"],
+"coordenadas": {
+"inicio": { "lat": 43.3190, "lon": -3.0180 },
+"fin": { "lat": 43.3830, "lon": -3.2200 }
+},
+"gpx": { "disponible": true, "distancia_km": 27.8, "desnivel_positivo": 425 },
+"relaciones": { "etapa_anterior": "cdn-07", "etapa_siguiente": "cdn-09" },
+"localidades": [
+{
+"id": "loc-pobena",
+"nombre": "Pobeña",
+"tipo": "intermedia",
+"coordenadas": { "lat": 43.3485, "lon": -3.1255 },
+"geo": { "elevation_m": 5 },
+"servicios": {
+"fuentes": true, "farmacia": false, "centro_salud": false,
+"supermercados": ["Tienda local"],
+"restaurantes": ["Bar Itxas-Lur"],
+"cajeros": false, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Pobena" },
+"patrimonio": [
+{
+"id": "pat-pobena-ermita", "nombre": "Ermita de Nuestra Señora del Socorro", "tipo": "Religioso", "siglo": "XVIII",
+"descripcion": "Ermita marinera junto a las marismas del Barbadún.",
+"relevancia": "media", "visitable": true, "coordenadas": { "lat": 43.3480, "lon": -3.1260 }
+}
+],
+"albergues": [
+{
+"id": "alb-pobena", "nombre": "Albergue de Peregrinos de Pobeña", "tipo": "municipal", "plazas": 22,
+"precio": { "min": 12, "max": 12 },
+"contacto": { "telefono": "+34 620 52 46 83" },
+"servicios": ["duchas", "exterior"], "rating": 4.3,
+"coordenadas": { "lat": 43.3490, "lon": -3.1260 },
+"links": { "google_maps": "https://maps.app.goo.gl/AlbPobena" }
+}
+]
+},
+{
+"id": "loc-castro",
+"nombre": "Castro Urdiales",
+"tipo": "final",
+"coordenadas": { "lat": 43.3830, "lon": -3.2200 },
+"geo": { "elevation_m": 12 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermercados": ["Lupa", "BM"],
+"restaurantes": ["Asador El Pollo", "La Marinera"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Castro" },
+"patrimonio": [
+{
+"id": "pat-santa-maria", "nombre": "Iglesia de Santa María de la Asunción", "tipo": "Religioso", "siglo": "XIII",
+"estilo": "Gótico", "descripcion": "La iglesia gótica más importante de Cantabria.",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.3855, "lon": -3.2185 }
+},
+{
+"id": "pat-castillo-faro", "nombre": "Castillo-Faro de Santa Ana", "tipo": "Militar", "siglo": "XII",
+"descripcion": "Fortaleza medieval que alberga el faro de la villa.",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.3852, "lon": -3.2178 }
+}
+],
+"albergues": [
+{
+"id": "alb-castro", "nombre": "Albergue de Peregrinos de Castro Urdiales", "tipo": "municipal", "plazas": 40,
+"precio": { "min": 12, "max": 12 },
+"contacto": { "telefono": "+34 942 86 13 14" },
+"servicios": ["wifi", "lavadero"], "rating": 4.0,
+"coordenadas": { "lat": 43.3760, "lon": -3.2180 },
+"links": { "google_maps": "https://maps.app.goo.gl/AlbCastro" }
+}
+]
+}
+]
+},
+{
+"id": "cdn-09",
+"numero": 9,
+"nombre": "Castro Urdiales - Laredo",
+"slug": "castro-urdiales-laredo",
+"distancia_km": 26.6,
+"desnivel": {
+"positivo_m": 540,
+"negativo_m": 530
+},
+"dificultad": "Moderada",
+"tipo_firme": ["asfalto", "sendero", "pista"],
+"resumen": "Etapa por valles interiores y costa cántabra, con la espectacular llegada a Laredo divisando Santoña.",
+"resumen_trazado": [
+"Salida de Castro hacia Islares.",
+"Variante por Liendo (valles verdes).",
+"Paso por la Ermita de San Julián.",
+"Descenso hacia Laredo.",
+"Llegada a la Puebla Vieja."
+],
+"tiempos": { "min_horas": 5.5, "media_horas": 7.0, "max_horas": 8.5 },
+"riesgos": ["Tramos de N-634 si no se toma la variante de Liendo"],
+"hidratacion": "Buena en Liendo y Laredo.",
+"clima_tipico": "Clima cántabro, nubes de evolución.",
+"tags": ["medieval", "valles", "playa"],
+"coordenadas": {
+"inicio": { "lat": 43.3830, "lon": -3.2200 },
+"fin": { "lat": 43.4140, "lon": -3.4130 }
+},
+"gpx": { "disponible": true, "distancia_km": 26.7, "desnivel_positivo": 545 },
+"relaciones": { "etapa_anterior": "cdn-08", "etapa_siguiente": "cdn-10" },
+"localidades": [
+{
+"id": "loc-laredo",
+"nombre": "Laredo",
+"tipo": "final",
+"coordenadas": { "lat": 43.4140, "lon": -3.4130 },
+"geo": { "elevation_m": 10 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermercados": ["Lupa", "BM"],
+"restaurantes": ["Mesón El Marinero", "El Pescador"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Laredo" },
+"patrimonio": [
+{
+"id": "pat-asuncion-laredo", "nombre": "Iglesia de Santa María de la Asunción", "tipo": "Religioso", "siglo": "XIII",
+"estilo": "Gótico", "descripcion": "Iglesia con el impresionante Retablo de Belén (escultura flamenca).",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.4130, "lon": -3.4110 }
+}
+],
+"albergues": [
+{
+"id": "alb-laredo", "nombre": "Albergue de la Casa de la Trinidad", "tipo": "parroquial", "plazas": 30,
+"precio": { "min": 15, "max": 15 },
+"contacto": { "telefono": "+34 942 60 45 40" },
+"servicios": ["lavadora", "acogida"], "rating": 4.4,
+"coordenadas": { "lat": 43.4135, "lon": -3.4125 },
+"links": { "google_maps": "https://maps.app.goo.gl/AlbLaredo" }
+}
+]
+}
+]
+},
+{
+"id": "cdn-10",
+"numero": 10,
+"nombre": "Laredo - Güemes",
+"slug": "laredo-guemes",
+"distancia_km": 29.5,
+"desnivel": {
+"positivo_m": 510,
+"negativo_m": 420
+},
+"dificultad": "Alta",
+"tipo_firme": ["playa", "asfalto", "sendero"],
+"resumen": "Etapa mítica que incluye el cruce en lancha de Laredo a Santoña y la llegada a uno de los albergues más simbólicos del mundo jacobeo.",
+"resumen_trazado": [
+"Travesía de la Playa de la Salvé (Laredo).",
+"Cruce en barca (lancha) a Santoña.",
+"Travesía por marismas y Playa de Berria.",
+"Ascenso al Brusco.",
+"Travesía por la playa de Noja.",
+"Llegada al interior (Güemes)."
+],
+"tiempos": { "min_horas": 7.0, "media_horas": 8.5, "max_horas": 10.0 },
+"riesgos": ["Dependencia de horarios de lancha", "Mareas altas en Noja que obligan a rodeo"],
+"hidratacion": "Buena en Santoña, Noja e Isla. Escasa al final.",
+"clima_tipico": "Viento costero, soleado en playas.",
+"tags": ["lancha", "playa", "hospitalidad"],
+"coordenadas": {
+"inicio": { "lat": 43.4140, "lon": -3.4130 },
+"fin": { "lat": 43.4540, "lon": -3.6330 }
+},
+"gpx": { "disponible": true, "distancia_km": 29.6, "desnivel_positivo": 515 },
+"relaciones": { "etapa_anterior": "cdn-09", "etapa_siguiente": "cdn-11" },
+"localidades": [
+{
+"id": "loc-santona",
+"nombre": "Santoña",
+"tipo": "intermedia",
+"coordenadas": { "lat": 43.4440, "lon": -3.4550 },
+"geo": { "elevation_m": 5 },
+"servicios": {
+"fuentes": true, "farmacia": true, "centro_salud": true,
+"supermerkados": ["Lupa", "Dia"],
+"restaurantes": ["Bar Perales"],
+"cajeros": true, "transporte_publico": true, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Santona" },
+"patrimonio": [
+{
+"id": "pat-puerto-santona", "nombre": "Iglesia de Santa María del Puerto", "tipo": "Religioso", "siglo": "XIII",
+"estilo": "Románico/Gótico", "descripcion": "Famosa por su retablo flamenco y su tradición marinera.",
+"relevancia": "alta", "visitable": true, "coordenadas": { "lat": 43.4445, "lon": -3.4555 }
+}
+],
+"albergues": []
+},
+{
+"id": "loc-guemes",
+"nombre": "Güemes",
+"tipo": "final",
+"coordenadas": { "lat": 43.4540, "lon": -3.6330 },
+"geo": { "elevation_m": 85 },
+"servicios": {
+"fuentes": true, "farmacia": false, "centro_salud": false,
+"supermerkados": [],
+"restaurantes": ["El Albergue"],
+"cajeros": false, "transporte_publico": false, "alojamiento": true
+},
+"links": { "google_maps": "https://maps.app.goo.gl/Guemes" },
+"patrimonio": [],
+"albergues": [
+{
+"id": "alb-guemes", "nombre": "Albergue de Güemes (La Cabaña del Abuelo Peuto)", "tipo": "donativo", "plazas": 100,
+"precio": { "min": 15, "max": 25 },
+"contacto": { "telefono": "+34 942 62 10 22", "email": "albergue@abupeuto.com" },
+"servicios": ["cena comunitaria", "charla", "lavandería"], "rating": 5.0,
+"coordenadas": { "lat": 43.4545, "lon": -3.6335 },
+"links": { "google_maps": "https://maps.app.goo.gl/AlbGuemes" }
+}
+]
+}
+]
+}
+]
+}

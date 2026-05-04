@@ -1,0 +1,96 @@
+[
+  {
+    "etapa_id": "jorgeada-unica",
+    "info_geografica": {
+      "origen": "Zaragoza",
+      "destino": "Huesca",
+      "distancia_km": 80.0,
+      "coordenadas_gps": {
+        "inicio": [41.6565, -0.8967],
+        "fin": [42.1315, -0.4205]
+      }
+    },
+    "perfil_tecnico": {
+      "desnivel_positivo": 465,
+      "desnivel_negativo": 310,
+      "cota_max_m": 485,
+      "dificultad": "Muy Alta (Ultra-Fondo)",
+      "apto_bicigrino": true,
+      "superficie_predominante": "Pistas de tierra compacta, caminos agrícolas y senderos locales"
+    },
+    "nodos_servicios_localidad": [
+      {
+        "localidad": "Villanueva de Gállego",
+        "km_punto": 15.2,
+        "servicios_disponibles": ["Farmacia", "Supermercado", "Bar", "Centro_Salud"],
+        "cajero_atm": true
+      },
+      {
+        "localidad": "Zuera",
+        "km_punto": 28.5,
+        "servicios_disponibles": ["Bar", "Tienda", "Farmacia", "Centro_Salud", "ATM"],
+        "cajero_atm": true
+      },
+      {
+        "localidad": "San Jorge",
+        "km_punto": 40.5,
+        "servicios_disponibles": ["Bar (Horario restringido)", "Fuente"],
+        "cajero_atm": false
+      },
+      {
+        "localidad": "Almudévar",
+        "km_punto": 52.7,
+        "servicios_disponibles": ["Farmacia", "Supermercado", "Bar", "Panadería (Trenza)"],
+        "cajero_atm": true
+      },
+      {
+        "localidad": "Huesca",
+        "km_punto": 75.0,
+        "servicios_disponibles": ["Hospital", "Cajeros", "Estación Tren/Bus", "Farmacia 24h"],
+        "cajero_atm": true
+      }
+    ],
+    "ecosistema_alojamiento": [
+      {
+        "nombre_albergue": "Pabellón Municipal Zuera (Logística Evento)",
+        "coordenadas": [41.8655, -0.7910],
+        "tipo": "Público",
+        "precio_aprox": 0,
+        "admite_reserva": false,
+        "capacidad_plazas_est": 200,
+        "servicios": ["Duchas", "Zona Descanso"],
+        "contacto": "+34976680002",
+        "valoracion_media": 3.5
+      },
+      {
+        "nombre_albergue": "Hostal El Rescoldo (Almudévar)",
+        "coordenadas": [42.0421, -0.5822],
+        "tipo": "Privado",
+        "precio_aprox": 35,
+        "admite_reserva": true,
+        "capacidad_plazas_est": 25,
+        "servicios": ["Restaurante", "Wifi"],
+        "contacto": "+34974250262",
+        "valoracion_media": 4.1
+      }
+    ],
+    "patrimonio_historico": {
+      "hitos": [
+        { "nombre": "Palacio de la Aljafería (Zaragoza)", "coords": [41.6565, -0.8967] },
+        { "nombre": "Iglesia de San Pedro (Zuera)", "coords": [41.8682, -0.7871] },
+        { "nombre": "Pozos de Chelo (Almudévar)", "coords": [42.0390, -0.5890] },
+        { "nombre": "Ermita de San Jorge (Huesca)", "coords": [42.1315, -0.4205] }
+      ],
+      "narrativa_estrategica": "Travesía integral del corredor del Gállego hacia la Hoya de Huesca. La ruta conecta el legado mudéjar de Zaragoza con la tradición hagiográfica de San Jorge en Huesca. El tramo central por los Pinares de Zuera representa el 'vaciado' físico antes de la aproximación final a la capital oscense."
+    },
+    "logistica_critica": {
+      "puntos_agua": [
+        { "nombre": "Fuente Villanueva", "coords": [41.7615, -0.8285] },
+        { "nombre": "Fuente San Jorge", "coords": [41.9333, -0.6667] },
+        { "nombre": "Fuente de los Tres Caños", "coords": [42.0850, -0.5100] }
+      ],
+      "farmacias_en_ruta": true,
+      "tramos_peligrosos": "KM 30-50: Sector de alto aislamiento. Exposición extrema a radiación solar y Cierzo. KM 72: Cruce de vías ferroviarias en la entrada a Huesca; obligatorio uso de pasos a nivel señalizados."
+    }
+  }
+]

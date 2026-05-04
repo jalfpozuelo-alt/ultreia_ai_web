@@ -1,0 +1,156 @@
+{
+  "camino": "Camino de Santiago de Madrid",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cmad-11",
+      "numero": 11,
+      "nombre": "Peñaflor de Hornija - Medina de Rioseco",
+      "slug": "penaflor-medina-rioseco",
+      "distancia_km": 24.3,
+      "desnivel": { "positivo_m": 50, "negativo_m": 150 },
+      "dificultad": "Baja",
+      "tipo_firme": ["pistas agrícolas", "sirga del canal"],
+      "resumen": "Descenso desde el páramo hacia la llanura del río Sequillo. La entrada a Medina de Rioseco se realiza siguiendo el cauce del Canal de Castilla.",
+      "resumen_trazado": [
+        "Descenso desde Peñaflor por caminos de concentración.",
+        "Paso por Castromonte con servicios básicos.",
+        "Enlace con el Canal de Castilla en su ramal de Campos.",
+        "Entrada en Medina de Rioseco por la dársena del canal."
+      ],
+      "tiempos": { "min_horas": 5.0, "media_horas": 6.0, "max_horas": 7.5 },
+      "riesgos": [
+        "Monotonía en el páramo que puede afectar la concentración del navegante",
+        "Viento de cara frecuente en los Montes Torozos"
+      ],
+      "hidratacion": "Buena en Castromonte (km 11).",
+      "tags": ["canal de castilla", "llanura", "historia"],
+      "coordenadas": {
+        "inicio": { "lat": 41.7121, "lon": -4.9835 },
+        "fin": { "lat": 41.8833, "lon": -5.0441 }
+      },
+      "localidades": [
+        {
+          "id": "loc-penaflor-ini",
+          "nombre": "Peñaflor de Hornija",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 41.7121, "lon": -4.9835 }
+        },
+        {
+          "id": "loc-rioseco",
+          "nombre": "Medina de Rioseco",
+          "tipo": "final",
+          "coordenadas": { "lat": 41.8833, "lon": -5.0441 },
+          "servicios": { "fuentes": true, "farmacia": true, "cajeros": true, "alojamiento": true },
+          "patrimonio": [
+            {
+              "id": "pat-canal-castilla",
+              "nombre": "Dársena del Canal de Castilla",
+              "tipo": "Civil",
+              "siglo": "XVIII",
+              "descripcion": "Puerto fluvial tierra adentro, hito de la ingeniería ilustrada.",
+              "relevancia": "alta"
+            }
+          ],
+          "albergues": [
+            { "nombre": "Albergue de Medina de Rioseco", "tipo": "municipal", "precio": 10 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-12",
+      "numero": 12,
+      "nombre": "Medina de Rioseco - Cuenca de Campos",
+      "slug": "rioseco-cuenca-campos",
+      "distancia_km": 25.1,
+      "desnivel": { "positivo_m": 100, "negativo_m": 50 },
+      "dificultad": "Baja",
+      "tipo_firme": ["tierra", "adobe", "pistas"],
+      "resumen": "Travesía por el corazón de la Tierra de Campos. Paisaje dominado por la arquitectura del adobe y el tapial.",
+      "resumen_trazado": [
+        "Salida de Rioseco por pistas llanas.",
+        "Paso por Tamariz de Campos.",
+        "Tránsito por Moral de la Reina.",
+        "Llegada a Cuenca de Campos."
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 41.8833, "lon": -5.0441 },
+        "fin": { "lat": 42.1082, "lon": -5.1558 }
+      },
+      "localidades": [
+        {
+          "id": "loc-rioseco-ini",
+          "nombre": "Medina de Rioseco",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 41.8833, "lon": -5.0441 }
+        },
+        {
+          "id": "loc-cuenca-campos",
+          "nombre": "Cuenca de Campos",
+          "tipo": "final",
+          "coordenadas": { "lat": 42.1082, "lon": -5.1558 },
+          "servicios": { "albergue": true, "bar": true, "tienda": true },
+          "patrimonio": [
+            { "nombre": "Iglesia de los Santos Justo y Pastor", "estilo": "Mudéjar", "relevancia": "media" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cmad-13",
+      "numero": 13,
+      "nombre": "Cuenca de Campos - Sahagún",
+      "slug": "cuenca-campos-sahagun",
+      "distancia_km": 39.5,
+      "desnivel": { "positivo_m": 150, "negativo_m": 100 },
+      "dificultad": "Alta (por distancia)",
+      "tipo_firme": ["pistas agrícolas", "asfalto secundario"],
+      "resumen": "Etapa de clausura del Camino de Madrid. Jornada de gran kilometraje que culmina en la unión con el Camino Francés.",
+      "resumen_trazado": [
+        "Salida hacia Santervás de Campos (lugar de nacimiento de Ponce de León).",
+        "Travesía solitaria hacia Grajal de Campos.",
+        "Entrada en Sahagún por el puente sobre el río Cea.",
+        "Conexión con el Camino Francés en el centro de la villa."
+      ],
+      "riesgos": [
+        "Agotamiento físico extremo debido a la longitud de la etapa (casi 40km)",
+        "Escasa cobertura de servicios en los tramos intermedios"
+      ],
+      "hidratacion": "Fundamental cargar 2L en Santervás; etapa crítica en verano.",
+      "coordenadas": {
+        "inicio": { "lat": 42.1082, "lon": -5.1558 },
+        "fin": { "lat": 42.3715, "lon": -5.0315 }
+      },
+      "localidades": [
+        {
+          "id": "loc-cuenca-ini",
+          "nombre": "Cuenca de Campos",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 42.1082, "lon": -5.1558 }
+        },
+        {
+          "id": "loc-santervas",
+          "nombre": "Santervás de Campos",
+          "tipo": "intermedia",
+          "km_punto": 18.0,
+          "coordenadas": { "lat": 42.2514, "lon": -5.1014 },
+          "servicios": { "albergue": true, "bar": true }
+        },
+        {
+          "id": "loc-sahagun",
+          "nombre": "Sahagún",
+          "tipo": "final",
+          "coordenadas": { "lat": 42.3715, "lon": -5.0315 },
+          "servicios": { "todos": true },
+          "patrimonio": [
+            { "nombre": "Iglesia de San Tirso", "siglo": "XII", "estilo": "Románico-Mudéjar", "relevancia": "alta" }
+          ],
+          "albergues": [
+            { "nombre": "Albergue de Sahagún (Monasterio)", "tipo": "municipal", "plazas": 60 }
+          ]
+        }
+      ]
+    }
+  ]
+}

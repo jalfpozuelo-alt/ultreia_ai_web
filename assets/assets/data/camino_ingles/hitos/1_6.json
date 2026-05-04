@@ -1,0 +1,516 @@
+{
+  "camino": "Camino Inglés (Ruta desde Ferrol)",
+  "version": "1.0.Pro-Plus",
+  "etapas": [
+    {
+      "id": "cei-01",
+      "numero": 1,
+      "nombre": "Ferrol - Neda",
+      "slug": "ferrol-neda",
+      "distancia_km": 15.0,
+      "desnivel": {
+        "positivo_m": 140,
+        "negativo_m": 145
+      },
+      "dificultad": "Baja",
+      "tipo_firme": [
+        "asfalto",
+        "paseo marítimo",
+        "acera"
+      ],
+      "resumen": "Arranque costero que bordea la ría de Ferrol. Es una etapa urbana y de toma de contacto, con escaso desnivel y servicios constantes hasta la villa de Neda.",
+      "resumen_trazado": [
+        "Salida desde el muelle de Curuxeiras en el Puerto de Ferrol.",
+        "Travesía por el casco histórico (Barrio de la Magdalena).",
+        "Paso por el Arsenal Militar y astilleros.",
+        "Bordeo de la Ensenada de Caranza y polígono de la Gándara.",
+        "Cruce del puente sobre el río Xuvia para entrar en Neda."
+      ],
+      "tiempos": {
+        "min_horas": 3.5,
+        "media_horas": 4.0,
+        "max_horas": 5.0
+      },
+      "riesgos": [
+        "Confusión de señalización en zonas industriales de Narón",
+        "Tráfico rodado en tramos de carretera nacional"
+      ],
+      "hidratacion": "Muy buena. Fuentes frecuentes en paseos marítimos y zonas urbanas.",
+      "clima_tipico": "Oceánico, alta probabilidad de lluvia y vientos costeros.",
+      "tags": [
+        "costa",
+        "urbano",
+        "ría"
+      ],
+      "coordenadas": {
+        "inicio": { "lat": 43.4802, "lon": -8.2364 },
+        "fin": { "lat": 43.5011, "lon": -8.1568 }
+      },
+      "gpx": {
+        "disponible": true,
+        "distancia_km": 15.02,
+        "desnivel_positivo": 140
+      },
+      "relaciones": {
+        "etapa_anterior": null,
+        "etapa_siguiente": "cei-02"
+      },
+      "localidades": [
+        {
+          "id": "loc-ferrol",
+          "nombre": "Ferrol",
+          "tipo": "inicio",
+          "coordenadas": { "lat": 43.4802, "lon": -8.2364 },
+          "geo": { "elevation_m": 5 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Eroski", "Alcampo", "Gadiz"],
+            "restaurantes": ["O Galo", "A Gabeira"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=43.4802,-8.2364" },
+          "patrimonio": [
+            {
+              "id": "pat-curuxeiras",
+              "nombre": "Puerto de Curuxeiras",
+              "tipo": "Civil", "siglo": "XVIII", "estilo": "Marítimo",
+              "descripcion": "Kilómetro 0 del Camino Inglés desde Ferrol.",
+              "relevancia": "alta", "visitable": true,
+              "coordenadas": { "lat": 43.4801, "lon": -8.2365 }
+            }
+          ],
+          "albergues": []
+        },
+        {
+          "id": "loc-neda",
+          "nombre": "Neda",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.5011, "lon": -8.1568 },
+          "geo": { "elevation_m": 12 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Eroski City"],
+            "restaurantes": ["O Fumazo"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=43.5011,-8.1568" },
+          "patrimonio": [
+            {
+              "id": "pat-neda-iglesia",
+              "nombre": "Iglesia de Santa María",
+              "tipo": "Religioso", "siglo": "XVIII", "estilo": "Barroco",
+              "descripcion": "Alberga el Cristo de la Cadena.",
+              "relevancia": "media", "visitable": true,
+              "coordenadas": { "lat": 43.5008, "lon": -8.1575 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-neda-mun",
+              "nombre": "Albergue de Peregrinos de Neda",
+              "tipo": "municipal", "plazas": 28,
+              "precio": { "min": 8, "max": 8 },
+              "contacto": { "telefono": "+34 981 39 02 33" },
+              "servicios": ["cocina", "lavadero", "wifi"], "rating": 4.1,
+              "coordenadas": { "lat": 43.5025, "lon": -8.1558 },
+              "links": { "google_maps": "http://maps.google.com/?q=43.5025,-8.1558" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cei-02",
+      "numero": 2,
+      "nombre": "Neda - Pontedeume",
+      "slug": "neda-pontedeume",
+      "distancia_km": 16.0,
+      "desnivel": {
+        "positivo_m": 310,
+        "negativo_m": 320
+      },
+      "dificultad": "Media-Baja",
+      "tipo_firme": ["asfalto", "pista de tierra"],
+      "resumen": "Etapa corta con paisajes cambiantes. Atraviesa Fene y ofrece la primera subida relevante antes de bajar a la histórica villa de Pontedeume.",
+      "resumen_trazado": [
+        "Salida de Neda bordeando la ría.",
+        "Travesía por el centro de Fene.",
+        "Ascenso al Alto do Coto.",
+        "Descenso hacia la playa de la Magdalena en Cabanas.",
+        "Cruce del puente sobre el río Eume para entrar en la villa."
+      ],
+      "tiempos": {
+        "min_horas": 4.0,
+        "media_horas": 4.5,
+        "max_horas": 5.5
+      },
+      "riesgos": [
+        "Cruce del puente de Pontedeume con viento y tráfico",
+        "Pendientes pronunciadas en el tramo de Cabanas"
+      ],
+      "hidratacion": "Buena. Servicios y fuentes constantes en Fene y Cabanas.",
+      "clima_tipico": "Húmedo, brisas marinas.",
+      "tags": ["puente", "playa", "historia"],
+      "coordenadas": {
+        "inicio": { "lat": 43.5011, "lon": -8.1568 },
+        "fin": { "lat": 43.4069, "lon": -8.1711 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 16.1, "desnivel_positivo": 315 },
+      "relaciones": {
+        "etapa_anterior": "cei-01",
+        "etapa_siguiente": "cei-03"
+      },
+      "localidades": [
+        {
+          "id": "loc-pontedeume",
+          "nombre": "Pontedeume",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.4069, "lon": -8.1711 },
+          "geo": { "elevation_m": 15 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Eroski", "Gadiz"],
+            "restaurantes": ["Los Andrade", "A Posta"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=43.4069,-8.1711" },
+          "patrimonio": [
+            {
+              "id": "pat-ponte-eume",
+              "nombre": "Puente sobre el río Eume",
+              "tipo": "Civil", "siglo": "XIX", "estilo": "Medieval/Reconstruido",
+              "descripcion": "Uno de los puentes más emblemáticos del camino, de origen medieval.",
+              "relevancia": "alta", "visitable": true,
+              "coordenadas": { "lat": 43.4081, "lon": -8.1715 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-pontedeume-mun",
+              "nombre": "Albergue de Pontedeume",
+              "tipo": "municipal", "plazas": 20,
+              "precio": { "min": 8, "max": 8 },
+              "contacto": { "telefono": "+34 682 46 90 31" },
+              "servicios": ["calefacción", "ducha"], "rating": 3.9,
+              "coordenadas": { "lat": 43.4085, "lon": -8.1705 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cei-03",
+      "numero": 3,
+      "nombre": "Pontedeume - Betanzos",
+      "slug": "pontedeume-betanzos",
+      "distancia_km": 20.2,
+      "desnivel": {
+        "positivo_m": 560,
+        "negativo_m": 550
+      },
+      "dificultad": "Media-Alta",
+      "tipo_firme": ["hormigón", "tierra", "asfalto"],
+      "resumen": "Etapa rompepiernas con ascensos exigentes. Atraviesa el rural gallego y la villa de Miño antes de llegar a la capital del gótico coruñés.",
+      "resumen_trazado": [
+        "Ascenso muy fuerte por la rúa San Miguel en Pontedeume.",
+        "Travesía por senderos forestales hacia Miño.",
+        "Bordeo de las rías de Ares y Betanzos.",
+        "Paso por la Iglesia de San Martiño de Tiobre.",
+        "Entrada en Betanzos por la Puerta de la Puente Vieja."
+      ],
+      "tiempos": {
+        "min_horas": 5.0,
+        "media_horas": 6.0,
+        "max_horas": 7.0
+      },
+      "riesgos": [
+        "Pendientes superiores al 15% al salir de Pontedeume",
+        "Tramos de asfalto estrechos con circulación local"
+      ],
+      "hidratacion": "Buena en Miño (km 10). Tramos solitarios entre aldeas.",
+      "clima_tipico": "Húmedo, frecuente niebla matinal.",
+      "tags": ["rompepiernas", "gótico", "panorámicas"],
+      "coordenadas": {
+        "inicio": { "lat": 43.4069, "lon": -8.1711 },
+        "fin": { "lat": 43.2811, "lon": -8.2114 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 20.3, "desnivel_positivo": 565 },
+      "relaciones": {
+        "etapa_anterior": "cei-02",
+        "etapa_siguiente": "cei-04"
+      },
+      "localidades": [
+        {
+          "id": "loc-betanzos",
+          "nombre": "Betanzos",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.2811, "lon": -8.2114 },
+          "geo": { "elevation_m": 35 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Gadiz", "Froiz", "Eroski"],
+            "restaurantes": ["La Casilla (Tortilla)", "Sinuessa"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=43.2811,-8.2114" },
+          "patrimonio": [
+            {
+              "id": "pat-san-francisco",
+              "nombre": "Iglesia de San Francisco",
+              "tipo": "Religioso", "siglo": "XIV", "estilo": "Gótico",
+              "descripcion": "Contiene los sepulcros de los Andrade.",
+              "relevancia": "alta", "visitable": true,
+              "coordenadas": { "lat": 43.2815, "lon": -8.2105 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-betanzos-mun",
+              "nombre": "Albergue de Peregrinos Casa da Pescadería",
+              "tipo": "municipal", "plazas": 35,
+              "precio": { "min": 8, "max": 8 },
+              "contacto": { "telefono": "+34 981 77 00 11" },
+              "servicios": ["cocina", "parking bicis", "wifi"], "rating": 4.4,
+              "coordenadas": { "lat": 43.2825, "lon": -8.2120 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cei-04",
+      "numero": 4,
+      "nombre": "Betanzos - Hospital de Bruma",
+      "slug": "betanzos-hospital-bruma",
+      "distancia_km": 28.3,
+      "desnivel": {
+        "positivo_m": 710,
+        "negativo_m": 250
+      },
+      "dificultad": "Alta",
+      "tipo_firme": ["tierra", "pista forestal", "asfalto"],
+      "resumen": "Etapa reina por desnivel. Ascenso continuo desde el nivel del mar hacia la meseta lucense. Tramo solitario de gran belleza rural y forestal.",
+      "resumen_trazado": [
+        "Salida de Betanzos cruzando el río Mendo.",
+        "Ascenso hacia Limiñón y Cos.",
+        "Paso por el lugar de Presedo.",
+        "Subida prolongada por el monte hacia A Malata.",
+        "Llegada a Hospital de Bruma, el punto más alto del camino."
+      ],
+      "tiempos": {
+        "min_horas": 7.0,
+        "media_horas": 8.0,
+        "max_horas": 10.0
+      },
+      "riesgos": [
+        "Aislamiento de 12km sin servicios en el tramo final",
+        "Desnivel acumulado fatigoso para peregrinos no entrenados"
+      ],
+      "hidratacion": "Escasa. Solo fuentes puntuales en Presedo (km 11) y A Malata (km 15).",
+      "clima_tipico": "Fresco en altura, nieblas frecuentes.",
+      "tags": ["montaña", "soledad", "desafío"],
+      "coordenadas": {
+        "inicio": { "lat": 43.2811, "lon": -8.2114 },
+        "fin": { "lat": 43.1492, "lon": -8.2917 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 28.4, "desnivel_positivo": 715 },
+      "relaciones": {
+        "etapa_anterior": "cei-03",
+        "etapa_siguiente": "cei-05"
+      },
+      "localidades": [
+        {
+          "id": "loc-bruma",
+          "nombre": "Hospital de Bruma",
+          "tipo": "final",
+          "coordenadas": { "lat": 43.1492, "lon": -8.2917 },
+          "geo": { "elevation_m": 465 },
+          "servicios": {
+            "fuentes": true, "farmacia": false, "centro_salud": false,
+            "supermercados": [], "restaurantes": ["Casa Graña"],
+            "cajeros": false, "transporte_publico": false, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=43.1492,-8.2917" },
+          "patrimonio": [
+            {
+              "id": "pat-bruma-hosp",
+              "nombre": "Restos del antiguo Hospital de Peregrinos",
+              "tipo": "Civil", "siglo": "XII", "estilo": "Medieval",
+              "descripcion": "Lugar histórico de acogida fundado en 1175.",
+              "relevancia": "media", "visitable": false
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-bruma-mun",
+              "nombre": "Albergue de Hospital de Bruma",
+              "tipo": "municipal", "plazas": 22,
+              "precio": { "min": 8, "max": 8 },
+              "contacto": { "telefono": "+34 981 69 22 24" },
+              "servicios": ["cocina", "ducha"], "rating": 3.7,
+              "coordenadas": { "lat": 43.1495, "lon": -8.2915 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cei-05",
+      "numero": 5,
+      "nombre": "Hospital de Bruma - Sigüeiro",
+      "slug": "bruma-sigueiro",
+      "distancia_km": 24.8,
+      "desnivel": {
+        "positivo_m": 120,
+        "negativo_m": 350
+      },
+      "dificultad": "Baja",
+      "tipo_firme": ["pista de tierra", "asfalto"],
+      "resumen": "Etapa de descenso suave y caminos llanos. Atraviesa el rural gallego profundo de la comarca del Ordes hacia el valle del Tambre.",
+      "resumen_trazado": [
+        "Salida de Bruma hacia Seixo.",
+        "Travesía por el lugar de A Calle y O Outeiro.",
+        "Paso por el centro de la localidad de Ordes.",
+        "Caminos parcelarios paralelos a la nacional N-550.",
+        "Llegada a Sigüeiro, localidad satélite de Santiago."
+      ],
+      "tiempos": {
+        "min_horas": 5.5,
+        "media_horas": 6.5,
+        "max_horas": 7.5
+      },
+      "riesgos": [
+        "Cruce de la nacional N-550 en varios puntos",
+        "Monotonía visual en tramos de pistas agrícolas"
+      ],
+      "hidratacion": "Buena en Ordes (km 12) y A Calle (km 8.5).",
+      "clima_tipico": "Frecuente lluvia racheada, viento de componente norte.",
+      "tags": ["descenso", "rural", "ordes"],
+      "coordenadas": {
+        "inicio": { "lat": 43.1492, "lon": -8.2917 },
+        "fin": { "lat": 42.9961, "lon": -8.4422 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 24.9, "desnivel_positivo": 125 },
+      "relaciones": {
+        "etapa_anterior": "cei-04",
+        "etStage_siguiente": "cei-06"
+      },
+      "localidades": [
+        {
+          "id": "loc-sigueiro",
+          "nombre": "Sigüeiro",
+          "tipo": "final",
+          "coordenadas": { "lat": 42.9961, "lon": -8.4422 },
+          "geo": { "elevation_m": 235 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Mercadona", "Froiz", "Gadiz"],
+            "restaurantes": ["O Mirador"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=42.9961,-8.4422" },
+          "patrimonio": [
+            {
+              "id": "pat-ponte-sigueiro",
+              "nombre": "Puente sobre el río Tambre",
+              "tipo": "Civil", "siglo": "XIV", "estilo": "Medieval",
+              "descripcion": "Marca el límite con el concello de Santiago.",
+              "relevancia": "media", "visitable": true,
+              "coordenadas": { "lat": 42.9955, "lon": -8.4430 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-sigueiro-priv",
+              "nombre": "Albergue de Sigüeiro",
+              "tipo": "privado", "plazas": 40,
+              "precio": { "min": 15, "max": 15 },
+              "contacto": { "telefono": "+34 604 00 11 55" },
+              "servicios": ["wifi", "lavandería", "bici-friendly"], "rating": 4.5,
+              "coordenadas": { "lat": 42.9975, "lon": -8.4415 }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cei-06",
+      "numero": 6,
+      "nombre": "Sigüeiro - Santiago de Compostela",
+      "slug": "sigueiro-santiago",
+      "distancia_km": 16.5,
+      "desnivel": {
+        "positivo_m": 240,
+        "negativo_m": 180
+      },
+      "dificultad": "Baja",
+      "tipo_firme": ["asfalto", "sendero boscoso"],
+      "resumen": "Última etapa de aproximación. Combina tramos de bosque con la entrada urbana a través del polígono del Tambre hacia la Catedral.",
+      "resumen_trazado": [
+        "Cruce del río Tambre al salir de Sigüeiro.",
+        "Travesía por el Bosque del Tambre.",
+        "Paso por Meixonfrío.",
+        "Entrada urbana por el barrio de San Caetano.",
+        "Llegada a la Plaza del Obradoiro."
+      ],
+      "tiempos": {
+        "min_horas": 3.5,
+        "media_horas": 4.5,
+        "max_horas": 5.5
+      },
+      "riesgos": [
+        "Señalización confusa en el Polígono del Tambre",
+        "Tráfico intenso en la entrada urbana a Santiago"
+      ],
+      "hidratacion": "Muy buena. Fuentes constantes en la zona urbana de Santiago.",
+      "clima_tipico": "Muy lluvioso, el 'orballo' es constante.",
+      "tags": ["catedral", "meta", "urbano"],
+      "coordenadas": {
+        "inicio": { "lat": 42.9961, "lon": -8.4422 },
+        "fin": { "lat": 42.8806, "lon": -8.5446 }
+      },
+      "gpx": { "disponible": true, "distancia_km": 16.6, "desnivel_positivo": 245 },
+      "relaciones": {
+        "etapa_anterior": "cei-05",
+        "etapa_siguiente": null
+      },
+      "localidades": [
+        {
+          "id": "loc-santiago",
+          "nombre": "Santiago de Compostela",
+          "tipo": "final",
+          "coordenadas": { "lat": 42.8806, "lon": -8.5446 },
+          "geo": { "elevation_m": 260 },
+          "servicios": {
+            "fuentes": true, "farmacia": true, "centro_salud": true,
+            "supermercados": ["Todos los servicios"],
+            "restaurantes": ["Abastos 2.0", "O Gato Negro"],
+            "cajeros": true, "transporte_publico": true, "alojamiento": true
+          },
+          "links": { "google_maps": "http://maps.google.com/?q=42.8806,-8.5446" },
+          "patrimonio": [
+            {
+              "id": "pat-catedral",
+              "nombre": "Catedral de Santiago de Compostela",
+              "tipo": "Religioso", "siglo": "XI-XVIII", "estilo": "Románico/Barroco",
+              "descripcion": "Meta espiritual y final de todos los caminos.",
+              "relevancia": "alta", "visitable": true,
+              "coordenadas": { "lat": 42.8805, "lon": -8.5456 }
+            }
+          ],
+          "albergues": [
+            {
+              "id": "alb-seminario-menor",
+              "nombre": "Albergue Seminario Menor",
+              "tipo": "privado", "plazas": 150,
+              "precio": { "min": 18, "max": 25 },
+              "contacto": { "telefono": "+34 981 58 92 00" },
+              "servicios": ["lavandería", "wifi", "vistas"], "rating": 4.2,
+              "coordenadas": { "lat": 42.8795, "lon": -8.5385 }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
